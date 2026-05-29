@@ -1,0 +1,865 @@
+csv_code,ref_id,variable,survey_year,topic,selection_source,question,feature_group,year_num
+C0566600,C05666.00,MS860544,1986,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1986.0
+C0564300,C05643.00,MS860521,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1986.0
+C0564500,C05645.00,MS860523,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1986.0
+C0564900,C05649.00,MS860527,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1986.0
+C0565000,C05650.00,MS860528,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1986.0
+C0565200,C05652.00,MS860530,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1986.0
+C0565800,C05658.00,MS860536,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1986.0
+C0573400,C05734.00,ANTI1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1986.0
+C0574100,C05741.00,ANTIP1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1986.0
+C0574800,C05748.00,ANTIZ1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1986.0
+C0575500,C05755.00,ANTIPX1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1986.0
+C0576200,C05762.00,ANTIZX1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1986.0
+C0576704,C05767.04,BPEXTR1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1986.0
+C0576705,C05767.05,BPEXTP1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1986.0
+C0576706,C05767.06,BPEXTZ1986,1986,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1986.0
+C0112600,C01126.00,NHCHLD1986,1986,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30,NUMBER OF MEMBERS UNDER 18 IN HH OF MOTHER,family/home,1986.0
+C0577900,C05779.00,BODY1986,1986,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,KNOWLEDGE OF BODY PARTS: TOTAL RAW SCORE,school/achievement,1986.0
+C0578100,C05781.00,LOCA1986,1986,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,MEMORY FOR LOCATION:  TOTAL RAW SCORE,school/achievement,1986.0
+C0783400,C07834.00,MS880831,1988,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1988.0
+C0781100,C07811.00,MS880775,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1988.0
+C0781300,C07813.00,MS880777,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1988.0
+C0781700,C07817.00,MS880814,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1988.0
+C0781800,C07818.00,MS880815,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1988.0
+C0782000,C07820.00,MS880817,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1988.0
+C0782600,C07826.00,MS880823,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1988.0
+C0793800,C07938.00,ANTI1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1988.0
+C0794500,C07945.00,ANTIP1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1988.0
+C0795200,C07952.00,ANTIZ1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1988.0
+C0795900,C07959.00,ANTIPX1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1988.0
+C0796600,C07966.00,ANTIZX1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1988.0
+C0797104,C07971.04,BPEXTR1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1988.0
+C0797105,C07971.05,BPEXTP1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1988.0
+C0797106,C07971.06,BPEXTZ1988,1988,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1988.0
+C0783700,C07837.00,MS880834,1988,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,1988.0
+C0119000,C01190.00,NH6_111988,1988,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,NUMBER OF HOUSEHOLD MEMBERS AGED 6 - 11,family/home,1988.0
+C0606300,C06063.00,CS881515,1988,Health,quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,HEALTH: CHILD'S HEIGHT - FEET,health,1988.0
+C0730700,C07307.00,CS884221,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HURT SOMEONE BAD ENOUGH TO NEED A DOCTOR,prior delinquency/contact,1988.0
+C0731000,C07310.00,CS884224,1988,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMINISTERED: DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,1988.0
+C0732800,C07328.00,CS884246,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE YOU EVER DRUNK ALCOHOL,substance/risk behavior,1988.0
+C0732900,C07329.00,CS884247,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE R DRUNK ALCOHOL IN PAST 3 MONTHS,substance/risk behavior,1988.0
+C0733000,C07330.00,CS884248,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,1988.0
+C0733100,C07331.00,CS884250,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE YOU EVER USED MARIJUANA,substance/risk behavior,1988.0
+C0733200,C07332.00,CS884251,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R USED MARIJUANA IN THE PAST 3 MONTHS,substance/risk behavior,1988.0
+C0733300,C07333.00,CS884252,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,1988.0
+C0733400,C07334.00,CS884254,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE YOU EVER USED OTHER DRUGS,substance/risk behavior,1988.0
+C0733500,C07335.00,CS884255,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: USED OTHER DRUGS IN THE PAST 3 MONTHS,substance/risk behavior,1988.0
+C0733600,C07336.00,CS884256,1988,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R'S AGE WHEN FIRST USED ANY DRUGS,substance/risk behavior,1988.0
+C0986800,C09868.00,MS901419,1990,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1990.0
+C0984100,C09841.00,MS901329,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1990.0
+C0984300,C09843.00,MS901333,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1990.0
+C0984700,C09847.00,MS901341,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1990.0
+C0984800,C09848.00,MS901343,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1990.0
+C0985000,C09850.00,MS901347,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1990.0
+C0985600,C09856.00,MS901359,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1990.0
+C0993800,C09938.00,ANTI1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1990.0
+C0994500,C09945.00,ANTIP1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1990.0
+C0995200,C09952.00,ANTIZ1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1990.0
+C0995900,C09959.00,ANTIPX1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1990.0
+C0996600,C09966.00,ANTIZX1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1990.0
+C0997104,C09971.04,BPEXTR1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1990.0
+C0997105,C09971.05,BPEXTP1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1990.0
+C0997106,C09971.06,BPEXTZ1990,1990,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1990.0
+C0986500,C09865.00,MS901413,1990,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,1990.0
+C0823600,C08236.00,CS902039,1990,Health,quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,HEALTH: IS CHILD 8 YRS OR OLDER?,health,1990.0
+C0942400,C09424.00,CS906613,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HURT SOMEONE BAD ENOUGH TO NEED A DOCTOR,prior delinquency/contact,1990.0
+C0942700,C09427.00,CS906619,1990,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMINISTERED: DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,1990.0
+C0944500,C09445.00,CS906655,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE YOU EVER DRUNK ALCOHOL,substance/risk behavior,1990.0
+C0944600,C09446.00,CS906657,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE R DRUNK ALCOHOL IN THE PAST 3 MONTHS,substance/risk behavior,1990.0
+C0944700,C09447.00,CS906659,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,1990.0
+C0944800,C09448.00,CS906661,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE YOU EVER USED MARIJUANA,substance/risk behavior,1990.0
+C0944900,C09449.00,CS906663,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R USED MARIJUANA IN THE PAST 3 MONTHS,substance/risk behavior,1990.0
+C0945000,C09450.00,CS906665,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,1990.0
+C0945100,C09451.00,CS906667,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAVE YOU EVER USED OTHER DRUGS,substance/risk behavior,1990.0
+C0945200,C09452.00,CS906669,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: USED OTHER DRUGS IN THE PAST 3 MONTHS,substance/risk behavior,1990.0
+C0945300,C09453.00,CS906671,1990,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: R'S AGE WHEN FIRST USED ANY DRUGS,substance/risk behavior,1990.0
+C0127413,C01274.13,NH6_111991,1991,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,# HOUSEHOLD MEMBERS AGED 6 - 11 IN HOUSEHOLD OF MOTHER,family/home,1991.0
+C1185100,C11851.00,MS921419,1992,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1992.0
+C1182400,C11824.00,MS921329,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1992.0
+C1182600,C11826.00,MS921334,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1992.0
+C1183000,C11830.00,MS921341,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1992.0
+C1183100,C11831.00,MS921343,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1992.0
+C1183300,C11833.00,MS921347,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1992.0
+C1183900,C11839.00,MS921359,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1992.0
+C1194100,C11941.00,ANTI1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1992.0
+C1194800,C11948.00,ANTIP1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1992.0
+C1195500,C11955.00,ANTIZ1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1992.0
+C1196200,C11962.00,ANTIPX1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1992.0
+C1196900,C11969.00,ANTIZX1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1992.0
+C1197414,C11974.14,BPEXTR1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1992.0
+C1197415,C11974.15,BPEXTP1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1992.0
+C1197416,C11974.16,BPEXTZ1992,1992,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1992.0
+C1184800,C11848.00,MS921413,1992,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,1992.0
+C1137200,C11372.00,CS926762,1992,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,1992.0
+C1137500,C11375.00,CS926768,1992,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,1992.0
+C1140000,C11400.00,CS926857,1992,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAS CHILD DRUNK ALCOHOL IN THE PAST 3,substance/risk behavior,1992.0
+C1140100,C11401.00,CS926859,1992,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,1992.0
+C1140300,C11403.00,CS926863,1992,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAS CHILD USED MARIJUANA IN THE PAST 3,substance/risk behavior,1992.0
+C1140400,C11404.00,CS926865,1992,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,1992.0
+C1140600,C11406.00,CS926869,1992,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMINISTERED: HAS CHILD USED OTHER DRUGS IN THE PAST 3,substance/risk behavior,1992.0
+C1437500,C14375.00,MS941519,1994,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1994.0
+C1434800,C14348.00,MS941429,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1994.0
+C1435000,C14350.00,MS941433,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1994.0
+C1435400,C14354.00,MS941441,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1994.0
+C1435500,C14355.00,MS941443,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1994.0
+C1435700,C14357.00,MS941447,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1994.0
+C1436300,C14363.00,MS941459,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1994.0
+C1501900,C15019.00,ANTI1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1994.0
+C1502600,C15026.00,ANTIP1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1994.0
+C1503300,C15033.00,ANTIZ1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1994.0
+C1504000,C15040.00,ANTIPX1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1994.0
+C1504700,C15047.00,ANTIZX1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1994.0
+C1505600,C15056.00,BPEXTR1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1994.0
+C1505700,C15057.00,BPEXTP1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1994.0
+C1505800,C15058.00,BPEXTS1994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1994.0
+C1506300,C15063.00,BPMIS21994,1994,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,1994.0
+C1437200,C14372.00,MS941513,1994,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,1994.0
+C0127914,C01279.14,NH12_171994,1994,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,# HOUSEHOLD MEMBERS AGED 12 - 17 IN HOUSEHOLD OF MOTHER,family/home,1994.0
+C1220200,C12202.00,CS94H-22,1994,Health,quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,HEALTH: CHILD'S HEIGHT - FEET,health,1994.0
+C1366200,C13662.00,CS942517,1994,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,1994.0
+Y0375200,Y03752.00,YASR-61E,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER IN LAST YEAR DAMAGED PROPERTY OF OTHERS ON,prior delinquency/contact,1994.0
+Y0375300,Y03753.00,YASR-61B,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: HAVE YOU EVER IN PAST YEAR GOTTEN INTO FIGHT AT,prior delinquency/contact,1994.0
+Y0376500,Y03765.00,YASR-61O,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR HURT SOMEONE ENOUGH TO,prior delinquency/contact,1994.0
+Y0376800,Y03768.00,YASR-62A,1994,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN CONVICTED OF CHARGES OTHER THAN MINOR TRAFFIC,prior delinquency/contact,1994.0
+Y0376900,Y03769.00,YASR-63,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: NUMBER OF TIMES BEEN CONVICTED OF SOMETHING,prior delinquency/contact,1994.0
+Y0377300,Y03773.00,YASR-65A~000001,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF ASSAULT?,prior delinquency/contact,1994.0
+Y0377400,Y03774.00,YASR-65A~000002,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF ROBBERY?,prior delinquency/contact,1994.0
+Y0377500,Y03775.00,YASR-65A~000003,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF THEFT?,prior delinquency/contact,1994.0
+Y0377600,Y03776.00,YASR-65A~000004,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF FENCING/RECEIVING/SELLING STOLEN,prior delinquency/contact,1994.0
+Y0377700,Y03777.00,YASR-65A~000005,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF DESTRUCTION OF PROPERTY?,prior delinquency/contact,1994.0
+Y0378600,Y03786.00,YASR-65B,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER BEEN CONVICTED OF ANYTHING IN ADULT COURT?,prior delinquency/contact,1994.0
+Y0378700,Y03787.00,YASR-67,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER BEEN ON PROBATION?,prior delinquency/contact,1994.0
+Y0379000,Y03790.00,YASR-67B,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: STILL ON PROBATION,prior delinquency/contact,1994.0
+Y0379100,Y03791.00,YASR-66,1994,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN SENTENCED TO A CORRECTIONS INSTITUTION/JAIL/REFORM,prior delinquency/contact,1994.0
+Y0379700,Y03797.00,YASR-66D,1994,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN REFERRED TO COURT-RELATED COUNSELING BY,prior delinquency/contact,1994.0
+Y0379800,Y03798.00,YASR-66E,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: NUMBER OF TIMES REFERRED TO COURT-RELATED,prior delinquency/contact,1994.0
+Y0379900,Y03799.00,YASR-66F,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: AGE WHEN FIRST REFERRED TO COURT-RELATED COUNSELING,prior delinquency/contact,1994.0
+C1366500,C13665.00,CS942523,1994,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,1994.0
+Y0380500,Y03805.00,YASR-69B,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: WAS VOLUNTEER WORK COURT ORDERED?,socioeconomic/work,1994.0
+C1370100,C13701.00,CS942641,1994,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,1994.0
+C1370500,C13705.00,CS942649,1994,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,1994.0
+Y0377900,Y03779.00,YASR-65A~000007,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF POSSESSION OF MARIJUANA OR,substance/risk behavior,1994.0
+Y0378000,Y03780.00,YASR-65A~000008,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF SELLING MARIJUANA OR HASHISH?,substance/risk behavior,1994.0
+Y0378100,Y03781.00,YASR-65A~000009,1994,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF POSSESSION/USE OF ILLICIT DRUGS?,substance/risk behavior,1994.0
+Y0378400,Y03784.00,YASR-65A~000012,1994,Crime & Substance Use,crime_related_variable,YASR: EVER CONVICTED OF DRINKING/PURCHASING ALCOHOL WHILE UNDER,substance/risk behavior,1994.0
+S0042900,S00429.00,P1Q38F,1995,Crime & Substance Use,crime_related_variable,PRINCIPAL #1: SCHOOL PROBLEM - DEGREE OF ROBBERY OR THEFT,school/achievement,1995.0
+S0043800,S00438.00,P1Q38O,1995,Crime & Substance Use,crime_related_variable,PRINCIPAL #1: SCHOOL PROBLEM - DEGREE OF POSSESSION OF WEAPONS,school/achievement,1995.0
+S0062300,S00623.00,P2Q38F,1995,Crime & Substance Use,crime_related_variable,PRINCIPAL #2: SCHOOL PROBLEM - DEGREE OF ROBBERY OR THEFT,school/achievement,1995.0
+S0063200,S00632.00,P2Q38O,1995,Crime & Substance Use,crime_related_variable,PRINCIPAL #2: SCHOOL PROBLEM - DEGREE OF POSSESSION OF WEAPONS,school/achievement,1995.0
+S0013300,S00133.00,C1Q59,1995,"Education, Training & Achievement Scores",quick_curated_logit_predictor; team_feature_lasso_top30,SCHOOLING #1: AMOUNT OF HOMEWORK ASSIGNED AT GRADE LEVEL,school/achievement,1995.0
+C1639100,C16391.00,MS961519,1996,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1996.0
+C1558800,C15588.00,ANTI1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1996.0
+C1559500,C15595.00,ANTIP1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1996.0
+C1560200,C15602.00,ANTIZ1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1996.0
+C1560900,C15609.00,ANTIPX1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1996.0
+C1561600,C15616.00,ANTIZX1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1996.0
+C1562500,C15625.00,BPEXTR1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1996.0
+C1562600,C15626.00,BPEXTP1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1996.0
+C1562700,C15627.00,BPEXTZ1996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1996.0
+C1563200,C15632.00,BPMIS21996,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,1996.0
+C1636400,C16364.00,MS961429,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1996.0
+C1636600,C16366.00,MS961433,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1996.0
+C1637000,C16370.00,MS961441,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1996.0
+C1637100,C16371.00,MS961443,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1996.0
+C1637300,C16373.00,MS961447,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1996.0
+C1637900,C16379.00,MS961459,1996,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1996.0
+C1638800,C16388.00,MS961513,1996,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,1996.0
+C0128014,C01280.14,NH12_171996,1996,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,# HOUSEHOLD MEMBERS AGED 12 - 17 IN HOUSEHOLD OF MOTHER,family/home,1996.0
+C1532700,C15327.00,CS96H-22,1996,Health,quick_curated_logit_predictor; substantive_lasso_top30,HEALTH: CHILD HEIGHT - FEET,health,1996.0
+C1588500,C15885.00,CS960817,1996,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,1996.0
+Y0668900,Y06689.00,YASR-61E,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER IN LAST YEAR DAMAGED PROPERTY OF OTHERS ON,prior delinquency/contact,1996.0
+Y0669000,Y06690.00,YASR-61B,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: HAVE YOU EVER IN PAST YEAR GOTTEN INTO FIGHT AT,prior delinquency/contact,1996.0
+Y0670200,Y06702.00,YASR-61O,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR HURT SOMEONE ENOUGH TO,prior delinquency/contact,1996.0
+Y0670500,Y06705.00,YASR-62A,1996,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN CONVICTED OF CHARGES OTHER THAN MINOR TRAFFIC,prior delinquency/contact,1996.0
+Y0670600,Y06706.00,YASR-63,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: NUMBER OF TIMES BEEN CONVICTED OF SOMETHING,prior delinquency/contact,1996.0
+Y0671000,Y06710.00,YASR-65A~000001,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF ASSAULT?,prior delinquency/contact,1996.0
+Y0671100,Y06711.00,YASR-65A~000002,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF ROBBERY?,prior delinquency/contact,1996.0
+Y0671200,Y06712.00,YASR-65A~000003,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF THEFT?,prior delinquency/contact,1996.0
+Y0671300,Y06713.00,YASR-65A~000004,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF FENCING/RECEIVING/SELLING STOLEN,prior delinquency/contact,1996.0
+Y0671400,Y06714.00,YASR-65A~000005,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF DESTRUCTION OF PROPERTY?,prior delinquency/contact,1996.0
+Y0672300,Y06723.00,YASR-65B,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER BEEN CONVICTED OF ANYTHING IN ADULT COURT?,prior delinquency/contact,1996.0
+Y0672400,Y06724.00,YASR-67,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER BEEN ON PROBATION?,prior delinquency/contact,1996.0
+Y0672700,Y06727.00,YASR-67B,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: STILL ON PROBATION,prior delinquency/contact,1996.0
+Y0672800,Y06728.00,YASR-66,1996,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN SENTENCED TO A CORRECTIONS INSTITUTION/JAIL/REFORM,prior delinquency/contact,1996.0
+Y0673400,Y06734.00,YASR-66D,1996,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN REFERRED TO COURT-RELATED COUNSELING BY,prior delinquency/contact,1996.0
+Y0673500,Y06735.00,YASR-66E,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: NUMBER OF TIMES REFERRED TO COURT-RELATED,prior delinquency/contact,1996.0
+Y0673600,Y06736.00,YASR-66F,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: AGE WHEN FIRST REFERRED TO COURT-RELATED COUNSELING,prior delinquency/contact,1996.0
+C1588800,C15888.00,CS960823,1996,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,1996.0
+C1662300,C16623.00,CS96MATH_GRD,1996,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,PIAT MATH: CHILD GRADE IN SCHOOL,school/achievement,1996.0
+Y0674200,Y06742.00,YASR-69B,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: WAS VOLUNTEER WORK COURT ORDERED?,socioeconomic/work,1996.0
+C1592100,C15921.00,CS960935,1996,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,1996.0
+C1592600,C15926.00,CS960945,1996,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,1996.0
+Y0671600,Y06716.00,YASR-65A~000007,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF POSSESSION OF MARIJUANA OR,substance/risk behavior,1996.0
+Y0671700,Y06717.00,YASR-65A~000008,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF SELLING MARIJUANA OR HASHISH?,substance/risk behavior,1996.0
+Y0671800,Y06718.00,YASR-65A~000009,1996,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF POSSESSION/USE OF ILLICIT DRUGS?,substance/risk behavior,1996.0
+Y0672100,Y06721.00,YASR-65A~000012,1996,Crime & Substance Use,crime_related_variable,YASR: EVER CONVICTED OF DRINKING/PURCHASING ALCOHOL WHILE UNDER,substance/risk behavior,1996.0
+C1980000,C19800.00,MS984031,1998,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,1998.0
+C1794500,C17945.00,ANTI1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,1998.0
+C1795200,C17952.00,ANTIP1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,1998.0
+C1795900,C17959.00,ANTIZ1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,1998.0
+C1796600,C17966.00,ANTIPX1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,1998.0
+C1797300,C17973.00,ANTIZX1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,1998.0
+C1798200,C17982.00,BPEXTR1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1998.0
+C1798300,C17983.00,BPEXTP1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,1998.0
+C1798400,C17984.00,BPEXTZ1998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,1998.0
+C1798900,C17989.00,BPMIS21998,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,1998.0
+C1977300,C19773.00,MS984004,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,1998.0
+C1977500,C19775.00,MS984006,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,1998.0
+C1977900,C19779.00,MS984010,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,1998.0
+C1978000,C19780.00,MS984011,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,1998.0
+C1978200,C19782.00,MS984013,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,1998.0
+C1978800,C19788.00,MS984019,1998,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,1998.0
+C1979700,C19797.00,MS984028,1998,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,1998.0
+C1910300,C19103.00,CS98005A,1998,Other / Unclassified,quick_curated_logit_predictor; team_feature_lasso_top30,CHILD SELF-ADMIN: HOW MUCH SAY IN RULES ABOUT WATCHING TV,family/home,1998.0
+C1944900,C19449.00,MS981A16,1998,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,HOME PART A (0-2 YRS): HOW OFTEN MOTHER TALKS TO CHILD WHILE,family/home,1998.0
+C1801400,C18014.00,CS98LIK_02,1998,"Attitudes, Expectations & Non-cognitive Tests",quick_curated_logit_predictor; substantive_lasso_top30,WHAT I AM LIKE/SPPC: SOME KIDS UNHAPPY/SOME PLEASED WITH THEMSELVES,other,1998.0
+C1927400,C19274.00,CS98040B,1998,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,1998.0
+Y0966300,Y09663.00,YASR-61E,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER IN LAST YEAR DAMAGED PROPERTY OF OTHERS ON,prior delinquency/contact,1998.0
+Y0966400,Y09664.00,YASR-61B,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: HAVE YOU EVER IN PAST YEAR GOTTEN INTO FIGHT AT,prior delinquency/contact,1998.0
+Y0967600,Y09676.00,YASR-61O,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR HURT SOMEONE ENOUGH TO,prior delinquency/contact,1998.0
+Y0967900,Y09679.00,YASR-62A,1998,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN CONVICTED OF CHARGES OTHER THAN MINOR TRAFFIC,prior delinquency/contact,1998.0
+Y0968000,Y09680.00,YASR-63,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: NUMBER OF TIMES BEEN CONVICTED OF SOMETHING,prior delinquency/contact,1998.0
+Y0968400,Y09684.00,YASR-65A~000001,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF ASSAULT?,prior delinquency/contact,1998.0
+Y0968500,Y09685.00,YASR-65A~000002,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF ROBBERY?,prior delinquency/contact,1998.0
+Y0968600,Y09686.00,YASR-65A~000003,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF THEFT?,prior delinquency/contact,1998.0
+Y0968700,Y09687.00,YASR-65A~000004,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF FENCING/RECEIVING/SELLING STOLEN,prior delinquency/contact,1998.0
+Y0968800,Y09688.00,YASR-65A~000005,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF DESTRUCTION OF PROPERTY?,prior delinquency/contact,1998.0
+Y0969700,Y09697.00,YASR-65B,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER BEEN CONVICTED OF ANYTHING IN ADULT COURT?,prior delinquency/contact,1998.0
+Y0969800,Y09698.00,YASR-67,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER BEEN ON PROBATION?,prior delinquency/contact,1998.0
+Y0970100,Y09701.00,YASR-67B,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: STILL ON PROBATION,prior delinquency/contact,1998.0
+Y0970200,Y09702.00,YASR-66,1998,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN SENTENCED TO A CORRECTIONS INSTITUTION/JAIL/REFORM,prior delinquency/contact,1998.0
+Y0970800,Y09708.00,YASR-66D,1998,Crime & Substance Use,crime_related_variable,YASR: EVER BEEN REFERRED TO COURT-RELATED COUNSELING BY,prior delinquency/contact,1998.0
+Y0970900,Y09709.00,YASR-66E,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: NUMBER OF TIMES REFERRED TO COURT-RELATED,prior delinquency/contact,1998.0
+Y0971000,Y09710.00,YASR-66F,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: AGE WHEN FIRST REFERRED TO COURT-RELATED COUNSELING,prior delinquency/contact,1998.0
+C1802100,C18021.00,CS98LIK_09,1998,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,WHAT I AM LIKE/SPPC: SOME DO WELL AT CLASSWORK/OTHERS DO NOT DO SO,school/achievement,1998.0
+C1920500,C19205.00,CS98022,1998,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,CHILD SELF-ADMIN: WHAT GRADE IN SCHOOL ARE YOU ATTENDING,school/achievement,1998.0
+C1927700,C19277.00,CS98040E,1998,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,1998.0
+Y0971600,Y09716.00,YASR-69B,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: WAS VOLUNTEER WORK COURT ORDERED?,socioeconomic/work,1998.0
+C1932800,C19328.00,CS98057,1998,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,1998.0
+C1933400,C19334.00,CS98063,1998,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,1998.0
+Y0954700,Y09547.00,YASR-24A,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT:  HAVE YOU EVER USED MARIJUANA,substance/risk behavior,1998.0
+Y0969000,Y09690.00,YASR-65A~000007,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF POSSESSION OF MARIJUANA OR,substance/risk behavior,1998.0
+Y0969100,Y09691.00,YASR-65A~000008,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF SELLING MARIJUANA OR HASHISH?,substance/risk behavior,1998.0
+Y0969200,Y09692.00,YASR-65A~000009,1998,Crime & Substance Use,crime_related_variable,YA SELF-REPORT: EVER CONVICTED OF POSSESSION/USE OF ILLICIT DRUGS?,substance/risk behavior,1998.0
+Y0969500,Y09695.00,YASR-65A~000012,1998,Crime & Substance Use,crime_related_variable,YASR: EVER CONVICTED OF DRINKING/PURCHASING ALCOHOL WHILE UNDER,substance/risk behavior,1998.0
+C2435600,C24356.00,MS2-31,2000,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2000.0
+C2432900,C24329.00,MS2-04,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2000.0
+C2433100,C24331.00,MS2-06,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2000.0
+C2433500,C24335.00,MS2-10,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2000.0
+C2433600,C24336.00,MS2-11,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2000.0
+C2433800,C24338.00,MS2-13,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2000.0
+C2434400,C24344.00,MS2-19,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2000.0
+C2496500,C24965.00,BPMIS22000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2000.0
+C2496600,C24966.00,BPEXTR2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2000.0
+C2497100,C24971.00,BPEXTP2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2000.0
+C2497200,C24972.00,BPEXTZ2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2000.0
+C2497400,C24974.00,ANTI2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2000.0
+C2497500,C24975.00,ANTIPX2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2000.0
+C2497600,C24976.00,ANTIP2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2000.0
+C2497700,C24977.00,ANTIZX2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2000.0
+C2497800,C24978.00,ANTIZ2000,2000,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2000.0
+C2435300,C24353.00,MS2-28,2000,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2000.0
+C2254614,C22546.14,HLTH-5A~000016,2000,Health,quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,CHILD HEALTH: TYPE OF LIMITING CONDITION,health,2000.0
+C2466100,C24661.00,CSAS040B,2000,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2000.0
+Y1176800,Y11768.00,YASR-65A~000001,2000,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2000.0
+Y1176801,Y11768.01,YASR-65A~000002,2000,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2000.0
+Y1176802,Y11768.02,YASR-65A~000003,2000,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2000.0
+Y1176804,Y11768.04,YASR-65A~000005,2000,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2000.0
+Y1177000,Y11770.00,YASR-67,2000,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2000.0
+Y1176900,Y11769.00,YASR-66,2000,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2000.0
+Y1176200,Y11762.00,YASR-61B,2000,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2000.0
+C2466400,C24664.00,CSAS040E,2000,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2000.0
+C2479400,C24794.00,CSAS107C,2000,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,CHILD SELF-ADMIN: EVER HAD A CLASS/TRAINING PROGRAM ON WORD,school/achievement,2000.0
+Y1177300,Y11773.00,YASR-69B,2000,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2000.0
+C2472000,C24720.00,CSAS057,2000,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2000.0
+C2472600,C24726.00,CSAS063,2000,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2000.0
+Y1176806,Y11768.06,YASR-65A~000007,2000,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2000.0
+Y1176807,Y11768.07,YASR-65A~000008,2000,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2000.0
+C2740400,C27404.00,BPI-31,2002,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2002.0
+C2525000,C25250.00,BPMIS22002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2002.0
+C2525100,C25251.00,BPEXTR2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2002.0
+C2525600,C25256.00,BPEXTP2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2002.0
+C2525700,C25257.00,BPEXTZ2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2002.0
+C2525900,C25259.00,ANTI2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2002.0
+C2526000,C25260.00,ANTIPX2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2002.0
+C2526100,C25261.00,ANTIP2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2002.0
+C2526200,C25262.00,ANTIZX2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2002.0
+C2526300,C25263.00,ANTIZ2002,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2002.0
+C2737600,C27376.00,BPI-04,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2002.0
+C2737800,C27378.00,BPI-06,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2002.0
+C2738200,C27382.00,BPI-10,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2002.0
+C2738300,C27383.00,BPI-11,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2002.0
+C2738500,C27385.00,BPI-13,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2002.0
+C2739100,C27391.00,BPI-19,2002,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2002.0
+C2740000,C27400.00,BPI-28,2002,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2002.0
+C0008046,C00080.46,CRES2002,2002,"Household, Geography & Demographics",quick_curated_logit_predictor; team_feature_lasso_top30,USUAL RESIDENCE OF CHILD,family/home,2002.0
+C2521400,C25214.00,NH6_112002,2002,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,# HOUSEHOLD MEMBERS AGED 6 - 11 IN HOUSEHOLD OF MOTHER,family/home,2002.0
+C2760900,C27609.00,CSAS024A,2002,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2002.0
+C2765800,C27658.00,CSAS040B,2002,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2002.0
+Y1415900,Y14159.00,YASR-60C,2002,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2002.0
+Y1417400,Y14174.00,YASR-65A~000001,2002,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2002.0
+Y1417401,Y14174.01,YASR-65A~000002,2002,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2002.0
+Y1417402,Y14174.02,YASR-65A~000003,2002,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2002.0
+Y1417404,Y14174.04,YASR-65A~000005,2002,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2002.0
+Y1417600,Y14176.00,YASR-67,2002,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2002.0
+Y1417500,Y14175.00,YASR-66,2002,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2002.0
+Y1255500,Y12555.00,Q4-5AA,2002,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2002.0
+Y1255600,Y12556.00,Q4-5AB,2002,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2002.0
+Y1416800,Y14168.00,YASR-61B,2002,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2002.0
+C2573200,C25732.00,SCHL-32,2002,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,SCHOOL: HOW MANY TIMES DID PARENTS ATTEND SCHOOL MEETING,school/achievement,2002.0
+C2589000,C25890.00,MAT_GRD,2002,"Education, Training & Achievement Scores",quick_curated_logit_predictor; team_feature_lasso_top30,PIAT MATH: CHILD GRADE IN SCHOOL,school/achievement,2002.0
+C2759000,C27590.00,CSAS020F,2002,"Education, Training & Achievement Scores",quick_curated_logit_predictor; team_feature_lasso_top30,CHILD SELF-ADMIN: HOW MUCH CHILD TELLS PARENTS ABOUT WHAT HOMEWORK,school/achievement,2002.0
+C2766100,C27661.00,CSAS040E,2002,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2002.0
+C2773300,C27733.00,CSAS093,2002,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,CHILD SELF-ADMIN: HAS CHILD EVER HAD A SEX EDUCATION CLASS AT,school/achievement,2002.0
+Y1416200,Y14162.00,YASR-60F,2002,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2002.0
+Y1417900,Y14179.00,YASR-69B,2002,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2002.0
+C2769800,C27698.00,CSAS056B,2002,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2002.0
+C2770000,C27700.00,CSAS057B,2002,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2002.0
+C2770600,C27706.00,CSAS063,2002,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2002.0
+Y1417406,Y14174.06,YASR-65A~000007,2002,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2002.0
+Y1417407,Y14174.07,YASR-65A~000008,2002,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2002.0
+C3012800,C30128.00,BPI-31,2004,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2004.0
+C2796300,C27963.00,BPMIS22004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2004.0
+C2796400,C27964.00,BPEXTR2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2004.0
+C2796900,C27969.00,BPEXTP2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2004.0
+C2797000,C27970.00,BPEXTZ2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2004.0
+C2797200,C27972.00,ANTI2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2004.0
+C2797300,C27973.00,ANTIPX2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2004.0
+C2797400,C27974.00,ANTIP2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2004.0
+C2797500,C27975.00,ANTIZX2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2004.0
+C2797600,C27976.00,ANTIZ2004,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2004.0
+C3010000,C30100.00,BPI-04,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2004.0
+C3010200,C30102.00,BPI-06,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2004.0
+C3010600,C30106.00,BPI-10,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2004.0
+C3010700,C30107.00,BPI-11,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2004.0
+C3010900,C30109.00,BPI-13,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2004.0
+C3011500,C30115.00,BPI-19,2004,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2004.0
+C3012400,C30124.00,BPI-28,2004,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2004.0
+C0008047,C00080.47,CRES2004,2004,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,USUAL RESIDENCE OF CHILD,family/home,2004.0
+C2996600,C29966.00,HOME-D04,2004,"Parents, Family Process & Childhood",quick_curated_logit_predictor; team_feature_lasso_top30,HOME PART D (10-14 YRS): DOES FAMILY GET A DAILY NEWSPAPER?,family/home,2004.0
+C3048400,C30484.00,CSAS049A,2004,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30,CHILD SELF-ADMIN: OFTEN GETS IN A JAM BECAUSE R DOES THINGS W/O,other,2004.0
+C3040300,C30403.00,CSAS024A,2004,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2004.0
+C3045500,C30455.00,CSAS040B,2004,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2004.0
+Y1667300,Y16673.00,YASR-60C,2004,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2004.0
+Y1668800,Y16688.00,YASR-65A~000001,2004,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2004.0
+Y1668801,Y16688.01,YASR-65A~000002,2004,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2004.0
+Y1668802,Y16688.02,YASR-65A~000003,2004,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2004.0
+Y1668804,Y16688.04,YASR-65A~000005,2004,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2004.0
+Y1669000,Y16690.00,YASR-67,2004,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2004.0
+Y1668900,Y16689.00,YASR-66,2004,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2004.0
+Y1489300,Y14893.00,Q4-5AA,2004,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2004.0
+Y1489400,Y14894.00,Q4-5AB,2004,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2004.0
+Y1668200,Y16682.00,YASR-61B,2004,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2004.0
+C3045800,C30458.00,CSAS040E,2004,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2004.0
+Y1667600,Y16676.00,YASR-60F,2004,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2004.0
+Y1669300,Y16693.00,YASR-69B,2004,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2004.0
+C3049700,C30497.00,CSAS056B,2004,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2004.0
+C3049900,C30499.00,CSAS057B,2004,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2004.0
+C3050500,C30505.00,CSAS063,2004,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2004.0
+Y1668806,Y16688.06,YASR-65A~000007,2004,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2004.0
+Y1668807,Y16688.07,YASR-65A~000008,2004,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2004.0
+C3422800,C34228.00,MS-BPI-31,2006,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2006.0
+C3104300,C31043.00,BPMIS22006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2006.0
+C3104400,C31044.00,BPEXTR2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2006.0
+C3104900,C31049.00,BPEXTP2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2006.0
+C3105000,C31050.00,BPEXTZ2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2006.0
+C3105200,C31052.00,ANTI2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2006.0
+C3105300,C31053.00,ANTIPX2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2006.0
+C3105400,C31054.00,ANTIP2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2006.0
+C3105500,C31055.00,ANTIZX2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2006.0
+C3105600,C31056.00,ANTIZ2006,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2006.0
+C3420000,C34200.00,MS-BPI-04,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2006.0
+C3420200,C34202.00,MS-BPI-06,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2006.0
+C3420600,C34206.00,MS-BPI-10,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2006.0
+C3420700,C34207.00,MS-BPI-11,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2006.0
+C3420900,C34209.00,MS-BPI-13,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2006.0
+C3421500,C34215.00,MS-BPI-19,2006,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2006.0
+C3422400,C34224.00,MS-BPI-28,2006,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2006.0
+C0008048,C00080.48,CRES2006,2006,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,USUAL RESIDENCE OF CHILD,family/home,2006.0
+Y1917200,Y19172.00,Q15-143,2006,"Income, Assets & Program Participation",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,HOW OFTEN R OR HOUSEHOLD PUTS OFF BUYING SOMETHING NECESSARY (SUCH,family/home,2006.0
+C3357600,C33576.00,CSAS005D,2006,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30,CHILD SELF-ADMIN: HOW MUCH SAY IN RULES ABOUT DATING AND BOY/GIRL,family/home,2006.0
+Y1890600,Y18906.00,Q14-14G,2006,Health,quick_curated_logit_predictor; team_feature_lasso_top30,USUAL PLACE R GOES FOR MEDICAL TREATMENT WHEN HAS ILLNESS OR INJURY,health,2006.0
+Y1737502,Y17375.02,Q3-78~000003,2006,Marriage & Cohabitation,quick_curated_logit_predictor; substantive_lasso_top30,DO R AND SPOUSE/PARTNER HAVE SEPARATE CREDIT CARDS?,other,2006.0
+Y1938701,Y19387.01,YASR-54A~000002,2006,"Sexual Activity, Pregnancy & Fertility",quick_curated_logit_predictor; substantive_lasso_top30,"BIRTH CONTROL METHODS R USED - CONDOM, RUBBER",other,2006.0
+C3364400,C33644.00,CSAS024A,2006,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2006.0
+C3366300,C33663.00,CSAS040B,2006,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2006.0
+Y1940600,Y19406.00,YASR-60C,2006,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2006.0
+Y1942100,Y19421.00,YASR-65A~000001,2006,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2006.0
+Y1942101,Y19421.01,YASR-65A~000002,2006,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2006.0
+Y1942102,Y19421.02,YASR-65A~000003,2006,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2006.0
+Y1942104,Y19421.04,YASR-65A~000005,2006,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2006.0
+Y1942300,Y19423.00,YASR-67,2006,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2006.0
+Y1942200,Y19422.00,YASR-66,2006,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2006.0
+Y1739100,Y17391.00,Q4-5AA,2006,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2006.0
+Y1739200,Y17392.00,Q4-5AB,2006,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2006.0
+Y1941500,Y19415.00,YASR-61B,2006,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2006.0
+C3366600,C33666.00,CSAS040E,2006,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2006.0
+Y1940900,Y19409.00,YASR-60F,2006,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2006.0
+Y1942700,Y19427.00,YASR-69B,2006,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2006.0
+C3370000,C33700.00,CSAS056B,2006,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2006.0
+C3370200,C33702.00,CSAS057B,2006,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2006.0
+C3370800,C33708.00,CSAS063,2006,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2006.0
+Y1942106,Y19421.06,YASR-65A~000007,2006,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2006.0
+Y1942107,Y19421.07,YASR-65A~000008,2006,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2006.0
+C3948700,C39487.00,MS-BPI-31,2008,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2008.0
+C3608000,C36080.00,BPMIS22008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2008.0
+C3608100,C36081.00,BPEXTR2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2008.0
+C3608600,C36086.00,BPEXTP2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2008.0
+C3608700,C36087.00,BPEXTZ2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2008.0
+C3608900,C36089.00,ANTI2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2008.0
+C3609000,C36090.00,ANTIPX2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2008.0
+C3609100,C36091.00,ANTIP2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2008.0
+C3609200,C36092.00,ANTIZX2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2008.0
+C3609300,C36093.00,ANTIZ2008,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2008.0
+C3945900,C39459.00,MS-BPI-04,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2008.0
+C3946100,C39461.00,MS-BPI-06,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2008.0
+C3946500,C39465.00,MS-BPI-10,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2008.0
+C3946600,C39466.00,MS-BPI-11,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2008.0
+C3946800,C39468.00,MS-BPI-13,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2008.0
+C3947400,C39474.00,MS-BPI-19,2008,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2008.0
+C3948300,C39483.00,MS-BPI-28,2008,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2008.0
+C3604000,C36040.00,NHFCHD2008,2008,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,# FEMALE HH MEMBERS UNDER 18 IN HOUSEHOLD OF MOTHER,family/home,2008.0
+C3924800,C39248.00,MS-HOME-D02F,2008,"Parents, Family Process & Childhood",quick_curated_logit_predictor; team_feature_lasso_top30,HOME PART D (10-14 YRS): HOW OFTEN CHILD EXPECTED TO HELP MANAGE,family/home,2008.0
+C3868400,C38684.00,CSAS030A,2008,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30,CHILD SELF-ADMIN: GIRLS AND BOYS SHOULD BE TREATED THE SAME AT,other,2008.0
+C3868100,C38681.00,CSAS024A,2008,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2008.0
+C3870000,C38700.00,CSAS040B,2008,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2008.0
+Y2256600,Y22566.00,YASR-60C,2008,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2008.0
+Y2258100,Y22581.00,YASR-65A~000001,2008,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2008.0
+Y2258101,Y22581.01,YASR-65A~000002,2008,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2008.0
+Y2258102,Y22581.02,YASR-65A~000003,2008,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2008.0
+Y2258104,Y22581.04,YASR-65A~000005,2008,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2008.0
+Y2258300,Y22583.00,YASR-67,2008,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2008.0
+Y2258200,Y22582.00,YASR-66,2008,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2008.0
+Y2019900,Y20199.00,Q4-5AA,2008,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2008.0
+Y2020000,Y20200.00,Q4-5AB,2008,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2008.0
+Y2257500,Y22575.00,YASR-61B,2008,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2008.0
+C3870300,C38703.00,CSAS040E,2008,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2008.0
+Y2256900,Y22569.00,YASR-60F,2008,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2008.0
+Y2258700,Y22587.00,YASR-69B,2008,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2008.0
+C3873700,C38737.00,CSAS056B,2008,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2008.0
+C3873900,C38739.00,CSAS057B,2008,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2008.0
+C3874500,C38745.00,CSAS063,2008,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2008.0
+Y2258106,Y22581.06,YASR-65A~000007,2008,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2008.0
+Y2258107,Y22581.07,YASR-65A~000008,2008,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2008.0
+Y2590306,Y25903.06,Q16-9~000007,2010,"Attitudes, Expectations & Non-cognitive Tests",quick_curated_logit_predictor; substantive_lasso_top30,TIPI (HOW WELL R THINKS PAIR OF PERSONALITY TRAITS APPLIES TO R) -,behavioral/externalizing,2010.0
+C5192800,C51928.00,MS-BPI-31,2010,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2010.0
+C3986600,C39866.00,BPMIS22010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2010.0
+C3986700,C39867.00,BPEXTR2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2010.0
+C3987200,C39872.00,BPEXTP2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2010.0
+C3987300,C39873.00,BPEXTZ2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2010.0
+C3987500,C39875.00,ANTI2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2010.0
+C3987600,C39876.00,ANTIPX2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2010.0
+C3987700,C39877.00,ANTIP2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2010.0
+C3987800,C39878.00,ANTIZX2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2010.0
+C3987900,C39879.00,ANTIZ2010,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2010.0
+C5190000,C51900.00,MS-BPI-04,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2010.0
+C5190200,C51902.00,MS-BPI-06,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2010.0
+C5190600,C51906.00,MS-BPI-10,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2010.0
+C5190700,C51907.00,MS-BPI-11,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2010.0
+C5190900,C51909.00,MS-BPI-13,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2010.0
+C5191500,C51915.00,MS-BPI-19,2010,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2010.0
+C5192400,C51924.00,MS-BPI-28,2010,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2010.0
+Y2342510,Y23425.10,Q3-75~000011,2010,"Household, Geography & Demographics",quick_curated_logit_predictor; team_feature_lasso_top30,RESPONSIBLILITY FOR HOUSEHOLD CHORES - HOW OFTEN DOES R DRIVE OTHER,family/home,2010.0
+Y2616600,Y26166.00,RESTYPE2010,2010,"Household, Geography & Demographics",quick_curated_logit_predictor; team_feature_lasso_top30,TYPE OF RESIDENCE R LIVES IN - CONSTRUCTED,family/home,2010.0
+Y2341500,Y23415.00,Q3-65~000001,2010,Marriage & Cohabitation,quick_curated_logit_predictor; team_feature_lasso_top30,HOW FREQUENTLY R AND SPOUSE/PARTNER ARGUE ABOUT CHORES AND,other,2010.0
+C5116300,C51163.00,CSAS024A,2010,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2010.0
+C5118200,C51182.00,CSAS040B,2010,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2010.0
+Y2608200,Y26082.00,YASR-60C,2010,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2010.0
+Y2609700,Y26097.00,YASR-65A~000001,2010,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2010.0
+Y2609701,Y26097.01,YASR-65A~000002,2010,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2010.0
+Y2609702,Y26097.02,YASR-65A~000003,2010,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2010.0
+Y2609704,Y26097.04,YASR-65A~000005,2010,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2010.0
+Y2609900,Y26099.00,YASR-67,2010,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2010.0
+Y2609800,Y26098.00,YASR-66,2010,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2010.0
+Y2345000,Y23450.00,Q4-5AA,2010,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2010.0
+Y2345100,Y23451.00,Q4-5AB,2010,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2010.0
+Y2609100,Y26091.00,YASR-61B,2010,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2010.0
+C5118500,C51185.00,CSAS040E,2010,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2010.0
+Y2608500,Y26085.00,YASR-60F,2010,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2010.0
+Y2611600,Y26116.00,YASR-69B,2010,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2010.0
+C5121900,C51219.00,CSAS056B,2010,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2010.0
+C5122100,C51221.00,CSAS057B,2010,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2010.0
+C5122700,C51227.00,CSAS063,2010,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2010.0
+Y2609706,Y26097.06,YASR-65A~000007,2010,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2010.0
+Y2609707,Y26097.07,YASR-65A~000008,2010,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2010.0
+C5767200,C57672.00,MS-BPI-31,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+Y2878501,Y28785.01,Q13-3G.01~000026,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+Y2878601,Y28786.01,Q13-3G.02~000026,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+Y2878701,Y28787.01,Q13-3G.03~000026,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+Y2878801,Y28788.01,Q13-3G.04~000026,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+Y2878901,Y28789.01,Q13-3G.05~000026,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+Y2879001,Y28790.01,Q13-3G.06~000026,2012,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2012.0
+C5530600,C55306.00,BPMIS22012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2012.0
+C5530700,C55307.00,BPEXTR2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2012.0
+C5531200,C55312.00,BPEXTP2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2012.0
+C5531300,C55313.00,BPEXTZ2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2012.0
+C5531500,C55315.00,ANTI2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2012.0
+C5531600,C55316.00,ANTIPX2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2012.0
+C5531700,C55317.00,ANTIP2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2012.0
+C5531800,C55318.00,ANTIZX2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2012.0
+C5531900,C55319.00,ANTIZ2012,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2012.0
+C5764400,C57644.00,MS-BPI-04,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+C5764600,C57646.00,MS-BPI-06,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+C5765000,C57650.00,MS-BPI-10,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+C5765100,C57651.00,MS-BPI-11,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+C5765300,C57653.00,MS-BPI-13,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+C5765900,C57659.00,MS-BPI-19,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+Y2875503,Y28755.03,Q13-3A.01~000004,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+Y2875505,Y28755.05,Q13-3A.01~000006,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+Y2875603,Y28756.03,Q13-3A.02~000004,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+Y2875605,Y28756.05,Q13-3A.02~000006,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+Y2875703,Y28757.03,Q13-3A.03~000004,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+Y2875705,Y28757.05,Q13-3A.03~000006,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+Y2875803,Y28758.03,Q13-3A.04~000004,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+Y2875805,Y28758.05,Q13-3A.04~000006,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+Y2875903,Y28759.03,Q13-3A.05~000004,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+Y2875905,Y28759.05,Q13-3A.05~000006,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+Y2876003,Y28760.03,Q13-3A.06~000004,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2012.0
+Y2876005,Y28760.05,Q13-3A.06~000006,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2012.0
+Y2876103,Y28761.03,Q13-3C.01~000010,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+Y2876104,Y28761.04,Q13-3C.01~000011,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+Y2876203,Y28762.03,Q13-3C.02~000010,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+Y2876204,Y28762.04,Q13-3C.02~000011,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+Y2876303,Y28763.03,Q13-3C.03~000010,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+Y2876304,Y28763.04,Q13-3C.03~000011,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+Y2876403,Y28764.03,Q13-3C.04~000010,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+Y2876404,Y28764.04,Q13-3C.04~000011,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+Y2876503,Y28765.03,Q13-3C.05~000010,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+Y2876504,Y28765.04,Q13-3C.05~000011,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+Y2876603,Y28766.03,Q13-3C.06~000010,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2012.0
+Y2876604,Y28766.04,Q13-3C.06~000011,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2012.0
+Y2876700,Y28767.00,Q13-3D.01~000013,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+Y2876800,Y28768.00,Q13-3D.02~000013,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+Y2876900,Y28769.00,Q13-3D.03~000013,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+Y2877000,Y28770.00,Q13-3D.04~000013,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+Y2877100,Y28771.00,Q13-3D.05~000013,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+Y2877200,Y28772.00,Q13-3D.06~000013,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2012.0
+Y2877300,Y28773.00,Q13-3E.01~000019,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+Y2877400,Y28774.00,Q13-3E.02~000019,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+Y2877500,Y28775.00,Q13-3E.03~000019,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+Y2877600,Y28776.00,Q13-3E.04~000019,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+Y2877700,Y28777.00,Q13-3E.05~000019,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+Y2877800,Y28778.00,Q13-3E.06~000019,2012,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2012.0
+C5766800,C57668.00,MS-BPI-28,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+Y2877903,Y28779.03,Q13-3F.01~000028,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+Y2878003,Y28780.03,Q13-3F.02~000028,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+Y2878103,Y28781.03,Q13-3F.03~000028,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+Y2878203,Y28782.03,Q13-3F.04~000028,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+Y2878303,Y28783.03,Q13-3F.05~000028,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+Y2878403,Y28784.03,Q13-3F.06~000028,2012,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2012.0
+C5525400,C55254.00,CRES2012,2012,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,USUAL RESIDENCE OF CHILD,family/home,2012.0
+C5527600,C55276.00,NH6_112012,2012,"Parents, Family Process & Childhood",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,# HOUSEHOLD MEMBERS AGED 6 - 11 IN HOUSEHOLD OF MOTHER,family/home,2012.0
+Y2892400,Y28924.00,Q14-16,2012,Health,quick_curated_logit_predictor; team_feature_lasso_top30,WHEN R LAST SAW DOCTOR FOR TREATMENT OF AN ILLNESS,health,2012.0
+Y2939300,Y29393.00,Q16-11D,2012,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,TREATMENT BY OTHERS:  HOW OFTEN PEOPLE HAVE ACTED AS IF THEY THINK,other,2012.0
+Y2964011,Y29640.11,YASR-72A~000012,2012,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30,WHO R WOULD TURN TO FOR HELP WITH EMOTIONAL OR PERSONAL PROBLEM -,other,2012.0
+C5693600,C56936.00,CSAS024A,2012,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2012.0
+C5695700,C56957.00,CSAS040B,2012,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2012.0
+Y2958300,Y29583.00,YASR-60C,2012,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2012.0
+Y2959800,Y29598.00,YASR-65A~000001,2012,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2012.0
+Y2959801,Y29598.01,YASR-65A~000002,2012,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2012.0
+Y2959802,Y29598.02,YASR-65A~000003,2012,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2012.0
+Y2959804,Y29598.04,YASR-65A~000005,2012,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2012.0
+Y2960000,Y29600.00,YASR-67,2012,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2012.0
+Y2959900,Y29599.00,YASR-66,2012,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2012.0
+Y2674500,Y26745.00,Q4-5AA,2012,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2012.0
+Y2674600,Y26746.00,Q4-5AB,2012,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2012.0
+Y2959200,Y29592.00,YASR-61B,2012,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2012.0
+C5675400,C56754.00,SCHL-15,2012,"Education, Training & Achievement Scores",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,SCHOOL: HOW OFTEN DOES TEACHER GIVE CHILD HOMEWORK,school/achievement,2012.0
+C5696000,C56960.00,CSAS040E,2012,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2012.0
+Y2958600,Y29586.00,YASR-60F,2012,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2012.0
+Y2961700,Y29617.00,YASR-69B,2012,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2012.0
+C5699400,C56994.00,CSAS056B,2012,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2012.0
+C5699600,C56996.00,CSAS057B,2012,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2012.0
+C5700200,C57002.00,CSAS063,2012,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2012.0
+Y2959806,Y29598.06,YASR-65A~000007,2012,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2012.0
+Y2959807,Y29598.07,YASR-65A~000008,2012,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2012.0
+C6034500,C60345.00,MS-BPI-31,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+Y3248901,Y32489.01,Q13-3G.01~000026,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+Y3249001,Y32490.01,Q13-3G.02~000026,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+Y3249101,Y32491.01,Q13-3G.03~000026,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+Y3249201,Y32492.01,Q13-3G.04~000026,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+Y3249301,Y32493.01,Q13-3G.05~000026,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+Y3249401,Y32494.01,Q13-3G.06~000026,2014,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2014.0
+C5806800,C58068.00,BPMIS22014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2014.0
+C5806900,C58069.00,BPEXTR2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2014.0
+C5807400,C58074.00,BPEXTP2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2014.0
+C5807500,C58075.00,BPEXTZ2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2014.0
+C5807700,C58077.00,ANTI2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2014.0
+C5807800,C58078.00,ANTIPX2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2014.0
+C5807900,C58079.00,ANTIP2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2014.0
+C5808000,C58080.00,ANTIZX2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2014.0
+C5808100,C58081.00,ANTIZ2014,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2014.0
+C6031700,C60317.00,MS-BPI-04,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+C6031900,C60319.00,MS-BPI-06,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+C6032300,C60323.00,MS-BPI-10,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+C6032400,C60324.00,MS-BPI-11,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+C6032600,C60326.00,MS-BPI-13,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+C6033200,C60332.00,MS-BPI-19,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+Y3245903,Y32459.03,Q13-3A.01~000004,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+Y3245905,Y32459.05,Q13-3A.01~000006,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+Y3246003,Y32460.03,Q13-3A.02~000004,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+Y3246005,Y32460.05,Q13-3A.02~000006,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+Y3246103,Y32461.03,Q13-3A.03~000004,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+Y3246105,Y32461.05,Q13-3A.03~000006,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+Y3246203,Y32462.03,Q13-3A.04~000004,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+Y3246205,Y32462.05,Q13-3A.04~000006,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+Y3246303,Y32463.03,Q13-3A.05~000004,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+Y3246305,Y32463.05,Q13-3A.05~000006,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+Y3246403,Y32464.03,Q13-3A.06~000004,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2014.0
+Y3246405,Y32464.05,Q13-3A.06~000006,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2014.0
+Y3246503,Y32465.03,Q13-3C.01~000010,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+Y3246504,Y32465.04,Q13-3C.01~000011,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+Y3246603,Y32466.03,Q13-3C.02~000010,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+Y3246604,Y32466.04,Q13-3C.02~000011,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+Y3246703,Y32467.03,Q13-3C.03~000010,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+Y3246704,Y32467.04,Q13-3C.03~000011,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+Y3246803,Y32468.03,Q13-3C.04~000010,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+Y3246804,Y32468.04,Q13-3C.04~000011,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+Y3246903,Y32469.03,Q13-3C.05~000010,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+Y3246904,Y32469.04,Q13-3C.05~000011,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+Y3247003,Y32470.03,Q13-3C.06~000010,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2014.0
+Y3247004,Y32470.04,Q13-3C.06~000011,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2014.0
+Y3247100,Y32471.00,Q13-3D.01~000013,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+Y3247200,Y32472.00,Q13-3D.02~000013,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+Y3247300,Y32473.00,Q13-3D.03~000013,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+Y3247400,Y32474.00,Q13-3D.04~000013,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+Y3247500,Y32475.00,Q13-3D.05~000013,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+Y3247600,Y32476.00,Q13-3D.06~000013,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2014.0
+Y3247700,Y32477.00,Q13-3E.01~000019,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+Y3247800,Y32478.00,Q13-3E.02~000019,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+Y3247900,Y32479.00,Q13-3E.03~000019,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+Y3248000,Y32480.00,Q13-3E.04~000019,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+Y3248100,Y32481.00,Q13-3E.05~000019,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+Y3248200,Y32482.00,Q13-3E.06~000019,2014,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2014.0
+C6034100,C60341.00,MS-BPI-28,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+Y3248303,Y32483.03,Q13-3F.01~000028,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+Y3248403,Y32484.03,Q13-3F.02~000028,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+Y3248503,Y32485.03,Q13-3F.03~000028,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+Y3248603,Y32486.03,Q13-3F.04~000028,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+Y3248703,Y32487.03,Q13-3F.05~000028,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+Y3248803,Y32488.03,Q13-3F.06~000028,2014,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2014.0
+C5990500,C59905.00,MS-BKGN-AGECK-YA1,2014,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30,IS CHILD TURNING 15 YEARS OF AGE IN 2014?,family/home,2014.0
+Y3332300,Y33323.00,NUMINHH2014,2014,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,NUMBER OF HOUSEHOLD MEMBERS IN HH OF R,family/home,2014.0
+Y3332600,Y33326.00,RESTYPE2014,2014,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,TYPE OF RESIDENCE R LIVES IN - CONSTRUCTED,family/home,2014.0
+Y3300000,Y33000.00,Q15-143,2014,"Income, Assets & Program Participation",quick_curated_logit_predictor; team_feature_lasso_top30,HOW OFTEN R OR HOUSEHOLD PUTS OFF BUYING SOMETHING NECESSARY (SUCH,family/home,2014.0
+Y3254900,Y32549.00,Q14-10M,2014,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30,"WHEN R BUYS FOOD ITEM FOR FIRST TIME, HOW OFTEN R READS NUTRITIONAL",other,2014.0
+C5965500,C59655.00,CSAS024A,2014,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HAS CHILD EVER SEEN STUDENT CARRY A WEAPON ON,peer/neighborhood,2014.0
+C5967600,C59676.00,CSAS040B,2014,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR HURT SOMEONE BAD ENOUGH TO,prior delinquency/contact,2014.0
+Y3325701,Y33257.01,YASR-60B-J~000002,2014,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2014.0
+Y3326200,Y33262.00,YASR-65A~000001,2014,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2014.0
+Y3326201,Y33262.01,YASR-65A~000002,2014,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2014.0
+Y3326202,Y33262.02,YASR-65A~000003,2014,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2014.0
+Y3326204,Y33262.04,YASR-65A~000005,2014,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2014.0
+Y3326400,Y33264.00,YASR-67,2014,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2014.0
+Y3326300,Y33263.00,YASR-66,2014,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2014.0
+Y3030900,Y30309.00,Q4-5AA,2014,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2014.0
+Y3031000,Y30310.00,Q4-5AB,2014,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2014.0
+Y3325801,Y33258.01,YASR-61A-D~000002,2014,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2014.0
+C5967900,C59679.00,CSAS040E,2014,"Education, Training & Achievement Scores",crime_related_variable,CHILD SELF-ADMIN: HOW OFTEN IN LAST YEAR DAMAGED SCHOOL PROPERTY ON,school/achievement,2014.0
+Y3325704,Y33257.04,YASR-60B-J~000005,2014,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2014.0
+Y3327000,Y33270.00,YASR-69B,2014,Crime & Substance Use,crime_related_variable,WAS ANY OF VOLUNTEER WORK R HAS DONE COURT ORDERED?,socioeconomic/work,2014.0
+C5971300,C59713.00,CSAS056B,2014,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL,substance/risk behavior,2014.0
+C5971500,C59715.00,CSAS057B,2014,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST DRANK ALCOHOL MORE THAN,substance/risk behavior,2014.0
+C5972100,C59721.00,CSAS063,2014,Crime & Substance Use,crime_related_variable,CHILD SELF-ADMIN: CHILD'S AGE WHEN FIRST USED MARIJUANA,substance/risk behavior,2014.0
+Y3326206,Y33262.06,YASR-65A~000007,2014,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2014.0
+Y3326207,Y33262.07,YASR-65A~000008,2014,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2014.0
+C6102600,C61026.00,MS-BPI-31,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+Y3589301,Y35893.01,Q13-3G.01~000026,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+Y3589401,Y35894.01,Q13-3G.02~000026,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+Y3589501,Y35895.01,Q13-3G.03~000026,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+Y3589601,Y35896.01,Q13-3G.04~000026,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+Y3589701,Y35897.01,Q13-3G.05~000026,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+Y3589801,Y35898.01,Q13-3G.06~000026,2016,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2016.0
+C6052600,C60526.00,BPMIS22016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL RAW SCORE TRICHOTOMOUS ITEMS -,behavioral/externalizing,2016.0
+C6052700,C60527.00,BPEXTR2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2016.0
+C6053200,C60532.00,BPEXTP2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL PERCENTILE SCORE TRICHOTOMOUS,behavioral/externalizing,2016.0
+C6053300,C60533.00,BPEXTZ2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: EXTERNAL STANDARD SCORE TRICHOTOMOUS ITEMS,behavioral/externalizing,2016.0
+C6053500,C60535.00,ANTI2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL RAW SCORE,behavioral/externalizing,2016.0
+C6053600,C60536.00,ANTIPX2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - SAME SEX,behavioral/externalizing,2016.0
+C6053700,C60537.00,ANTIP2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL PERCENTILE SCORE - ALL CHILDREN,behavioral/externalizing,2016.0
+C6053800,C60538.00,ANTIZX2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - SAME SEX,behavioral/externalizing,2016.0
+C6053900,C60539.00,ANTIZ2016,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: ANTISOCIAL STANDARD SCORE - ALL CHILDREN,behavioral/externalizing,2016.0
+C6099800,C60998.00,MS-BPI-04,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+C6100000,C61000.00,MS-BPI-06,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+C6100400,C61004.00,MS-BPI-10,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+C6100500,C61005.00,MS-BPI-11,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+C6100700,C61007.00,MS-BPI-13,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+C6101300,C61013.00,MS-BPI-19,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+Y3586303,Y35863.03,Q13-3A.01~000004,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+Y3586305,Y35863.05,Q13-3A.01~000006,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+Y3586403,Y35864.03,Q13-3A.02~000004,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+Y3586405,Y35864.05,Q13-3A.02~000006,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+Y3586503,Y35865.03,Q13-3A.03~000004,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+Y3586505,Y35865.05,Q13-3A.03~000006,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+Y3586603,Y35866.03,Q13-3A.04~000004,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+Y3586605,Y35866.05,Q13-3A.04~000006,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+Y3586703,Y35867.03,Q13-3A.05~000004,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+Y3586705,Y35867.05,Q13-3A.05~000006,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+Y3586803,Y35868.03,Q13-3A.06~000004,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2016.0
+Y3586805,Y35868.05,Q13-3A.06~000006,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2016.0
+Y3586903,Y35869.03,Q13-3C.01~000010,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+Y3586904,Y35869.04,Q13-3C.01~000011,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+Y3587003,Y35870.03,Q13-3C.02~000010,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+Y3587004,Y35870.04,Q13-3C.02~000011,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+Y3587103,Y35871.03,Q13-3C.03~000010,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+Y3587104,Y35871.04,Q13-3C.03~000011,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+Y3587203,Y35872.03,Q13-3C.04~000010,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+Y3587204,Y35872.04,Q13-3C.04~000011,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+Y3587303,Y35873.03,Q13-3C.05~000010,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+Y3587304,Y35873.04,Q13-3C.05~000011,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+Y3587403,Y35874.03,Q13-3C.06~000010,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2016.0
+Y3587404,Y35874.04,Q13-3C.06~000011,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2016.0
+Y3587500,Y35875.00,Q13-3D.01~000013,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+Y3587600,Y35876.00,Q13-3D.02~000013,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+Y3587700,Y35877.00,Q13-3D.03~000013,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+Y3587800,Y35878.00,Q13-3D.04~000013,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+Y3587900,Y35879.00,Q13-3D.05~000013,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+Y3588000,Y35880.00,Q13-3D.06~000013,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2016.0
+Y3588100,Y35881.00,Q13-3E.01~000019,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+Y3588200,Y35882.00,Q13-3E.02~000019,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+Y3588300,Y35883.00,Q13-3E.03~000019,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+Y3588400,Y35884.00,Q13-3E.04~000019,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+Y3588500,Y35885.00,Q13-3E.05~000019,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+Y3588600,Y35886.00,Q13-3E.06~000019,2016,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2016.0
+C6102200,C61022.00,MS-BPI-28,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+Y3588703,Y35887.03,Q13-3F.01~000028,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+Y3588803,Y35888.03,Q13-3F.02~000028,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+Y3588903,Y35889.03,Q13-3F.03~000028,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+Y3589003,Y35890.03,Q13-3F.04~000028,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+Y3589103,Y35891.03,Q13-3F.05~000028,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+Y3589203,Y35892.03,Q13-3F.06~000028,2016,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2016.0
+C6051000,C60510.00,CRES2016,2016,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,USUAL RESIDENCE OF CHILD,family/home,2016.0
+Y3676100,Y36761.00,NUMINHH2016,2016,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,NUMBER OF HOUSEHOLD MEMBERS IN HH OF R,family/home,2016.0
+Y3676400,Y36764.00,RESTYPE2016,2016,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30,TYPE OF RESIDENCE R LIVES IN - CONSTRUCTED,family/home,2016.0
+Y3599000,Y35990.00,Q14-20A,2016,Health,quick_curated_logit_predictor; team_feature_lasso_top30,HEIGHT OF R IN INCHES (NOT INCLUDING FEET),health,2016.0
+Y3563900,Y35639.00,Q12-172,2016,"Attitudes, Expectations & Non-cognitive Tests",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,HOW MANY (MORE) CHILDREN DOES R EXPECT TO HAVE? (NONE OR SELECT TO,other,2016.0
+Y3662000,Y36620.00,YASR-10-1,2016,Other / Unclassified,quick_curated_logit_predictor; substantive_lasso_top30,HOW MANY HOURS IN A TYPICAL WEEK R WATCHES TV (CATEGORICAL),other,2016.0
+Y3670801,Y36708.01,YASR-60B-J~000002,2016,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2016.0
+Y3671400,Y36714.00,YASR-65A~000001,2016,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2016.0
+Y3671401,Y36714.01,YASR-65A~000002,2016,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2016.0
+Y3671402,Y36714.02,YASR-65A~000003,2016,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2016.0
+Y3671404,Y36714.04,YASR-65A~000005,2016,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2016.0
+Y3671600,Y36716.00,YASR-67,2016,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2016.0
+Y3671500,Y36715.00,YASR-66,2016,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2016.0
+Y3373600,Y33736.00,Q2-43,2016,"Attitudes, Expectations & Non-cognitive Tests",quick_curated_logit_predictor; substantive_lasso_top30,IN PAST YEAR HOW OFTEN R HAS ATTENDED RELIGIOUS SERVICES,school/achievement,2016.0
+Y3396400,Y33964.00,Q4-5AA,2016,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2016.0
+Y3396500,Y33965.00,Q4-5AB,2016,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2016.0
+Y3670901,Y36709.01,YASR-61A-D~000002,2016,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2016.0
+Y3670804,Y36708.04,YASR-60B-J~000005,2016,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2016.0
+Y3456000,Y34560.00,QES-71A.01,2016,Employment,quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,EASIEST WAY FOR R TO REPORT TOTAL EARNINGS/TIME UNIT FOR RATE OF,socioeconomic/work,2016.0
+Y3671406,Y36714.06,YASR-65A~000007,2016,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2016.0
+Y3671407,Y36714.07,YASR-65A~000008,2016,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2016.0
+Y4210701,Y42107.01,Q13-3G.01~000026,2018,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2018.0
+Y4210801,Y42108.01,Q13-3G.02~000026,2018,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2018.0
+Y4210901,Y42109.01,Q13-3G.03~000026,2018,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2018.0
+Y4211001,Y42110.01,Q13-3G.04~000026,2018,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2018.0
+Y4211101,Y42111.01,Q13-3G.05~000026,2018,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2018.0
+Y4208203,Y42082.03,Q13-3A.01~000004,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2018.0
+Y4208205,Y42082.05,Q13-3A.01~000006,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2018.0
+Y4208303,Y42083.03,Q13-3A.02~000004,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2018.0
+Y4208305,Y42083.05,Q13-3A.02~000006,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2018.0
+Y4208403,Y42084.03,Q13-3A.03~000004,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2018.0
+Y4208405,Y42084.05,Q13-3A.03~000006,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2018.0
+Y4208503,Y42085.03,Q13-3A.04~000004,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2018.0
+Y4208505,Y42085.05,Q13-3A.04~000006,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2018.0
+Y4208603,Y42086.03,Q13-3A.05~000004,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2018.0
+Y4208605,Y42086.05,Q13-3A.05~000006,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2018.0
+Y4208703,Y42087.03,Q13-3C.01~000010,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2018.0
+Y4208704,Y42087.04,Q13-3C.01~000011,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2018.0
+Y4208803,Y42088.03,Q13-3C.02~000010,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2018.0
+Y4208804,Y42088.04,Q13-3C.02~000011,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2018.0
+Y4208903,Y42089.03,Q13-3C.03~000010,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2018.0
+Y4208904,Y42089.04,Q13-3C.03~000011,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2018.0
+Y4209003,Y42090.03,Q13-3C.04~000010,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2018.0
+Y4209004,Y42090.04,Q13-3C.04~000011,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2018.0
+Y4209103,Y42091.03,Q13-3C.05~000010,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2018.0
+Y4209104,Y42091.04,Q13-3C.05~000011,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2018.0
+Y4209200,Y42092.00,Q13-3D.01~000013,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2018.0
+Y4209300,Y42093.00,Q13-3D.02~000013,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2018.0
+Y4209400,Y42094.00,Q13-3D.03~000013,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2018.0
+Y4209500,Y42095.00,Q13-3D.04~000013,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2018.0
+Y4209600,Y42096.00,Q13-3D.05~000013,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2018.0
+Y4209700,Y42097.00,Q13-3E.01~000019,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2018.0
+Y4209800,Y42098.00,Q13-3E.02~000019,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2018.0
+Y4209900,Y42099.00,Q13-3E.03~000019,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2018.0
+Y4210000,Y42100.00,Q13-3E.04~000019,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2018.0
+Y4210100,Y42101.00,Q13-3E.05~000019,2018,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2018.0
+Y4210203,Y42102.03,Q13-3F.01~000028,2018,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2018.0
+Y4210303,Y42103.03,Q13-3F.02~000028,2018,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2018.0
+Y4210403,Y42104.03,Q13-3F.03~000028,2018,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2018.0
+Y4210503,Y42105.03,Q13-3F.04~000028,2018,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2018.0
+Y4210603,Y42106.03,Q13-3F.05~000028,2018,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2018.0
+C6120500,C61205.00,CRES2018,2018,"Household, Geography & Demographics",quick_curated_logit_predictor; substantive_lasso_top30; team_feature_lasso_top30,USUAL RESIDENCE OF CHILD,family/home,2018.0
+Y4275601,Y42756.01,YASR-60B-J~000002,2018,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2018.0
+Y4276200,Y42762.00,YASR-65A~000001,2018,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2018.0
+Y4276201,Y42762.01,YASR-65A~000002,2018,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2018.0
+Y4276202,Y42762.02,YASR-65A~000003,2018,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2018.0
+Y4276204,Y42762.04,YASR-65A~000005,2018,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2018.0
+Y4276400,Y42764.00,YASR-67,2018,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2018.0
+Y4276300,Y42763.00,YASR-66,2018,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2018.0
+Y4039500,Y40395.00,Q4-5AA,2018,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2018.0
+Y4039600,Y40396.00,Q4-5AB,2018,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2018.0
+Y4275701,Y42757.01,YASR-61A-D~000002,2018,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2018.0
+Y4275604,Y42756.04,YASR-60B-J~000005,2018,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2018.0
+Y4276206,Y42762.06,YASR-65A~000007,2018,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2018.0
+Y4276207,Y42762.07,YASR-65A~000008,2018,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2018.0
+Y4528701,Y45287.01,Q13-3G.01~000026,2020,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2020.0
+Y4528801,Y45288.01,Q13-3G.02~000026,2020,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2020.0
+Y4528901,Y45289.01,Q13-3G.03~000026,2020,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2020.0
+Y4529001,Y45290.01,Q13-3G.04~000026,2020,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2020.0
+Y4529101,Y45291.01,Q13-3G.05~000026,2020,"Education, Training & Achievement Scores",crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT SCHOOL,behavioral/externalizing,2020.0
+Y4526203,Y45262.03,Q13-3A.01~000004,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2020.0
+Y4526205,Y45262.05,Q13-3A.01~000006,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2020.0
+Y4526303,Y45263.03,Q13-3A.02~000004,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2020.0
+Y4526305,Y45263.05,Q13-3A.02~000006,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2020.0
+Y4526403,Y45264.03,Q13-3A.03~000004,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2020.0
+Y4526405,Y45264.05,Q13-3A.03~000006,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2020.0
+Y4526503,Y45265.03,Q13-3A.04~000004,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2020.0
+Y4526505,Y45265.05,Q13-3A.04~000006,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2020.0
+Y4526603,Y45266.03,Q13-3A.05~000004,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD CHEATS OR TELLS LIES,behavioral/externalizing,2020.0
+Y4526605,Y45266.05,Q13-3A.05~000006,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD ARGUES TOO MUCH,behavioral/externalizing,2020.0
+Y4526703,Y45267.03,Q13-3C.01~000010,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2020.0
+Y4526704,Y45267.04,Q13-3C.01~000011,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2020.0
+Y4526803,Y45268.03,Q13-3C.02~000010,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2020.0
+Y4526804,Y45268.04,Q13-3C.02~000011,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2020.0
+Y4526903,Y45269.03,Q13-3C.03~000010,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2020.0
+Y4526904,Y45269.04,Q13-3C.03~000011,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2020.0
+Y4527003,Y45270.03,Q13-3C.04~000010,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2020.0
+Y4527004,Y45270.04,Q13-3C.04~000011,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2020.0
+Y4527103,Y45271.03,Q13-3C.05~000010,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS DISOBEDIENT AT HOME,behavioral/externalizing,2020.0
+Y4527104,Y45271.04,Q13-3C.05~000011,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD DOES NOT SEEM TO FEEL SORRY AFTER,behavioral/externalizing,2020.0
+Y4527200,Y45272.00,Q13-3D.01~000013,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2020.0
+Y4527300,Y45273.00,Q13-3D.02~000013,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2020.0
+Y4527400,Y45274.00,Q13-3D.03~000013,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2020.0
+Y4527500,Y45275.00,Q13-3D.04~000013,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2020.0
+Y4527600,Y45276.00,Q13-3D.05~000013,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD IS IMPULSIVE OR ACTS WITHOUT,behavioral/externalizing,2020.0
+Y4527700,Y45277.00,Q13-3E.01~000019,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2020.0
+Y4527800,Y45278.00,Q13-3E.02~000019,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2020.0
+Y4527900,Y45279.00,Q13-3E.03~000019,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2020.0
+Y4528000,Y45280.00,Q13-3E.04~000019,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2020.0
+Y4528100,Y45281.00,Q13-3E.05~000019,2020,Other / Unclassified,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HAS STRONG TEMPER AND LOSES IT,behavioral/externalizing,2020.0
+Y4528203,Y45282.03,Q13-3F.01~000028,2020,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2020.0
+Y4528303,Y45283.03,Q13-3F.02~000028,2020,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2020.0
+Y4528403,Y45284.03,Q13-3F.03~000028,2020,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2020.0
+Y4528503,Y45285.03,Q13-3F.04~000028,2020,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2020.0
+Y4528603,Y45286.03,Q13-3F.05~000028,2020,Survey Methodology,crime_related_variable,BEHAVIOR PROBLEMS INDEX: CHILD HANGS AROUND WITH KIDS WHO GET INTO,behavioral/externalizing,2020.0
+Y4596801,Y45968.01,YASR-60B-J~000002,2020,Crime & Substance Use,crime_related_variable,HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED,prior delinquency/contact,2020.0
+Y4597400,Y45974.00,YASR-65A~000001,2020,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ASSAULT,prior delinquency/contact,2020.0
+Y4597401,Y45974.01,YASR-65A~000002,2020,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - ROBBERY,prior delinquency/contact,2020.0
+Y4597402,Y45974.02,YASR-65A~000003,2020,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - THEFT,prior delinquency/contact,2020.0
+Y4597404,Y45974.04,YASR-65A~000005,2020,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - DESTRUCTION OF PROPERTY,prior delinquency/contact,2020.0
+Y4597600,Y45976.00,YASR-67,2020,Crime & Substance Use,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN ON PROBATION?,prior delinquency/contact,2020.0
+Y4597500,Y45975.00,YASR-66,2020,Other / Unclassified,crime_related_variable,EVER/SINCE DATE OF LAST INTERVIEW R BEEN SENTENCED TO A CORRECTIONS,prior delinquency/contact,2020.0
+Y4344700,Y43447.00,Q4-5AA,2020,Crime & Substance Use,crime_related_variable,HAS R EVER SEEN A STUDENT CARRY A WEAPON ON SCHOOL PROPERTY,school/achievement,2020.0
+Y4344800,Y43448.00,Q4-5AB,2020,Crime & Substance Use,crime_related_variable,IN LAST SCHOOL YEAR HOW OFTEN HAS R SEEN A STUDENT CARRY A WEAPON,school/achievement,2020.0
+Y4596901,Y45969.01,YASR-61A-D~000002,2020,Crime & Substance Use,crime_related_variable,IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK,school/achievement,2020.0
+Y4596804,Y45968.04,YASR-60B-J~000005,2020,"Education, Training & Achievement Scores",crime_related_variable,HOW MANY TIMES IN LAST YEAR R DAMAGED SCHOOL PROPERTY ON PURPOSE,school/achievement,2020.0
+Y4597406,Y45974.06,YASR-65A~000007,2020,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - POSSESSION OF MARIJUANA OR,substance/risk behavior,2020.0
+Y4597407,Y45974.07,YASR-65A~000008,2020,Crime & Substance Use,crime_related_variable,CHARGES R MOST RECENTLY CONVICTED OF - SELLING OF MARIJUANA OR,substance/risk behavior,2020.0
+C0005400,C00054.00,CSEX,XRND,"Household, Geography & Demographics",demographic_control,SEX OF CHILD,background,
+C0005800,C00058.00,BTHORDR,XRND,"Household, Geography & Demographics",demographic_control,BIRTH ORDER OF CHILD,background,
+C0005300,C00053.00,CRACE,XRND,"Parents, Family Process & Childhood",demographic_control,RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER),background,
+C0007000,C00070.00,MAGEBIR,XRND,"Parents, Family Process & Childhood",demographic_control,AGE OF MOTHER AT BIRTH OF CHILD,background,
+C0005500,C00055.00,CMOB,XRND,"Sexual Activity, Pregnancy & Fertility",demographic_control,DATE OF BIRTH OF CHILD - MONTH,background,
+C0005700,C00057.00,CYRB,XRND,"Sexual Activity, Pregnancy & Fertility",demographic_control,DATE OF BIRTH OF CHILD - YEAR,background,

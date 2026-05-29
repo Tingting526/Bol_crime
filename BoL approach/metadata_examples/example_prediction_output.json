@@ -1,0 +1,11 @@
+{
+  "model": "gpt-5.4-nano",
+  "target": "later_persistent_delinquency_contact",
+  "prediction": 0,
+  "probability": 0.34,
+  "reason": "The synthetic book contains some mixed behavioral-risk indicators but no clear pre-cutoff pattern of repeated delinquency or justice contact.",
+  "raw_response": "{\"prediction\":0,\"probability\":0.34,\"reason\":\"The synthetic book contains some mixed behavioral-risk indicators but no clear pre-cutoff pattern of repeated delinquency or justice contact.\"}",
+  "y_true": null,
+  "cutoff_year": 2010,
+  "correct": null
+}

@@ -1,0 +1,3 @@
+target,total_n,eligible_n,missing_n,positive_n,negative_n,base_rate
+later_any_delinquency_contact,4739,4122,617,3064,1058,0.7433284813197477
+later_persistent_delinquency_contact,4739,4122,617,2109,2013,0.5116448326055313

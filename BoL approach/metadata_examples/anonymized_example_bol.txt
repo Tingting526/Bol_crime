@@ -1,0 +1,10 @@
+This Book of Life is a synthetic illustrative example. It is not a real NLSY79 respondent.
+Only information observed before 2010 is included.
+Stable background information: Sex of child: male; Race/ethnic cohort: not shown in this public example; Birth order of child: 2; Approximate birth cohort: late 1980s.
+In 1994: family/home: household includes school-aged children; school/achievement: early school information is observed; behavioral/externalizing: behavior problem items show mostly low to moderate externalizing behavior.
+In 1996: school/achievement: achievement and school context measures are available; behavioral/externalizing: a few items indicate arguing, impulsivity, or disobedience, but not consistently severe.
+In 1998: substance/risk behavior: no clear substance-use indicator is shown in this synthetic example; peer/neighborhood: limited information is available.
+In 2000: school/achievement: respondent is in the school/young-adult observation window; behavioral/externalizing: some behavioral-risk information is present; prior delinquency/contact: no probation or corrections contact is observed before the cutoff.
+In 2002: prior delinquency/contact: one minor delinquency-related item is observed, but there is not yet evidence of repeated contact across multiple later survey years.
+In 2004: family/home and school information continue to be observed; behavioral/externalizing items are mixed.
+In 2008: substance/risk behavior: limited risk behavior information is observed; prior delinquency/contact: no repeated justice contact is visible before the cutoff.

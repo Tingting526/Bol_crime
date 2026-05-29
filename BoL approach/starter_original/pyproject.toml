@@ -1,0 +1,17 @@
+[project]
+name = "lmu-bol-seminar"
+version = "0.1.0"
+description = "LMU Munich Book-of-Life seminar (SoSe 2026) starter pipeline."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "openai",
+    "ipykernel",
+    "jupyter",
+    "matplotlib>=3.10.9",
+    # BOLT-only (full bol_pipeline.ipynb path; not needed by bol_pipeline_simplified.ipynb):
+    "duckdb>=1.5.2",
+    "pyyaml>=6.0.3",
+]
