@@ -1,0 +1,70 @@
+csv_code,year,item_type,description,available_in_feature_file
+C2466100,2000,violence,hurt someone badly enough to need a doctor,True
+C2466400,2000,property,damaged school property on purpose,True
+Y1176200,2000,violence,physical fight at school or work,True
+Y1176900,2000,justice,sentenced to corrections/jail/reform,True
+Y1177000,2000,justice,on probation,True
+C2765800,2002,violence,hurt someone badly enough to need a doctor,True
+C2766100,2002,property,damaged school property on purpose,True
+Y1415900,2002,violence,hurt someone badly enough to need a doctor,True
+Y1416200,2002,property,damaged school property on purpose,True
+Y1416800,2002,violence,physical fight at school or work,True
+Y1417500,2002,justice,sentenced to corrections/jail/reform,True
+Y1417600,2002,justice,on probation,True
+C3045500,2004,violence,hurt someone badly enough to need a doctor,True
+C3045800,2004,property,damaged school property on purpose,True
+Y1667300,2004,violence,hurt someone badly enough to need a doctor,True
+Y1667600,2004,property,damaged school property on purpose,True
+Y1668200,2004,violence,physical fight at school or work,True
+Y1668900,2004,justice,sentenced to corrections/jail/reform,True
+Y1669000,2004,justice,on probation,True
+C3366300,2006,violence,hurt someone badly enough to need a doctor,True
+C3366600,2006,property,damaged school property on purpose,True
+Y1940600,2006,violence,hurt someone badly enough to need a doctor,True
+Y1940900,2006,property,damaged school property on purpose,True
+Y1941500,2006,violence,physical fight at school or work,True
+Y1942200,2006,justice,sentenced to corrections/jail/reform,True
+Y1942300,2006,justice,on probation,True
+C3870000,2008,violence,hurt someone badly enough to need a doctor,True
+C3870300,2008,property,damaged school property on purpose,True
+Y2256600,2008,violence,hurt someone badly enough to need a doctor,True
+Y2256900,2008,property,damaged school property on purpose,True
+Y2257500,2008,violence,physical fight at school or work,True
+Y2258200,2008,justice,sentenced to corrections/jail/reform,True
+Y2258300,2008,justice,on probation,True
+C5118200,2010,violence,hurt someone badly enough to need a doctor,True
+C5118500,2010,property,damaged school property on purpose,True
+Y2608200,2010,violence,hurt someone badly enough to need a doctor,True
+Y2608500,2010,property,damaged school property on purpose,True
+Y2609100,2010,violence,physical fight at school or work,True
+Y2609800,2010,justice,sentenced to corrections/jail/reform,True
+Y2609900,2010,justice,on probation,True
+C5695700,2012,violence,hurt someone badly enough to need a doctor,True
+C5696000,2012,property,damaged school property on purpose,True
+Y2958300,2012,violence,hurt someone badly enough to need a doctor,True
+Y2958600,2012,property,damaged school property on purpose,True
+Y2959200,2012,violence,physical fight at school or work,True
+Y2959900,2012,justice,sentenced to corrections/jail/reform,True
+Y2960000,2012,justice,on probation,True
+C5967600,2014,violence,hurt someone badly enough to need a doctor,True
+C5967900,2014,property,damaged school property on purpose,True
+Y3325701,2014,violence,hurt someone badly enough to need a doctor,True
+Y3325704,2014,property,damaged school property on purpose,True
+Y3325801,2014,violence,physical fight at school or work,True
+Y3326300,2014,justice,sentenced to corrections/jail/reform,True
+Y3326400,2014,justice,on probation,True
+Y3670801,2016,violence,hurt someone badly enough to need a doctor,True
+Y3670804,2016,property,damaged school property on purpose,True
+Y3670901,2016,violence,physical fight at school or work,True
+Y3671500,2016,justice,sentenced to corrections/jail/reform,True
+Y3671600,2016,justice,on probation,True
+Y4275601,2018,violence,hurt someone badly enough to need a doctor,True
+Y4275604,2018,property,damaged school property on purpose,True
+Y4275701,2018,violence,physical fight at school or work,True
+Y4276300,2018,justice,sentenced to corrections/jail/reform,True
+Y4276400,2018,justice,on probation,True
+Y4596801,2020,violence,hurt someone badly enough to need a doctor,True
+Y4596804,2020,property,damaged school property on purpose,True
+Y4596901,2020,violence,physical fight at school or work,True
+Y4597500,2020,justice,sentenced to corrections/jail/reform,True
+Y4597600,2020,justice,on probation,True
