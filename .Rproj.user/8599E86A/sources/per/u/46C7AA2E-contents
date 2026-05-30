@@ -1,0 +1,2 @@
+library(readr)
+crime_1980 <- read_csv("/Users/diergexiaohai/Desktop/SS26/LLM Project/data/crime_core_1980/crime_core_1980.csv")
