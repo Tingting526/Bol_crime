@@ -1,0 +1,40 @@
+{
+  "target": "later_persistent_delinquency_contact_2000_2020",
+  "model": "gradient_boosting_stumps_numpy",
+  "n_total": 4122,
+  "n_train": 2885,
+  "n_test": 1237,
+  "n_features": 250,
+  "test_size": 0.3,
+  "random_seed": 2026,
+  "n_estimators": 150,
+  "learning_rate": 0.05,
+  "max_thresholds_per_feature": 24,
+  "min_leaf_size": 30,
+  "initial_score": 0.04645549326173747,
+  "final_train_loss": 0.5639373192855688,
+  "train_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.7417677642980935,
+    "auc": 0.8008322418213536,
+    "sensitivity_tpr": 0.8197831978319783,
+    "specificity_tnr": 0.6600425833924769,
+    "predicted_positive_rate": 0.5854419410745234,
+    "tp": 1210,
+    "tn": 930,
+    "fp": 479,
+    "fn": 266
+  },
+  "test_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.7607113985448666,
+    "auc": 0.8045939131435507,
+    "sensitivity_tpr": 0.8404423380726699,
+    "specificity_tnr": 0.6771523178807947,
+    "predicted_positive_rate": 0.587712206952304,
+    "tp": 532,
+    "tn": 409,
+    "fp": 195,
+    "fn": 101
+  }
+}
