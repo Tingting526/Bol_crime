@@ -1,0 +1,194 @@
+---
+title: "Tabular Model Parameters"
+output: html_document
+---
+
+# Overview
+
+This document summarizes the parameters used for the tabular baseline models:
+
+- L2 Logistic Regression
+- Gradient Boosting with decision stumps
+- Discrete-time survival model, first exploratory version
+- Cox time-varying survival model using `lifelines`
+
+Both models use the same target and feature basis as the original BoL approach:
+
+- Target: `later_persistent_delinquency_contact_2000_2020`
+- Feature source: original BoL broad persistent feature index
+- Number of features: 864 year-specific features
+- Split: stratified train/test split
+- Test size: 30%
+- Random seed: 2026
+- Prediction threshold for classification metrics: 0.5
+
+The target is positive if a person has direct delinquency/contact indicators in at least two different observed survey years from 2000 to 2020.
+
+# Shared Preprocessing
+
+Both models use the same person-specific cutoff logic as the original BoL approach:
+
+- Positive cases: predictors are kept only before the second positive delinquency/contact event year.
+- Negative cases: predictors are kept only before the last observed target year.
+
+Negative NLSY missing codes are treated as missing:
+
+```text
+-1, -2, -3, -4, -5, -7
+```
+
+For tabular modeling:
+
+- Missing values are imputed with the training-set median.
+- Logistic regression additionally standardizes features using the training-set mean and standard deviation.
+- Gradient boosting uses the median-imputed feature values without standardization.
+
+# Logistic Regression Parameters
+
+Model:
+
+```text
+L2-regularized logistic regression
+```
+
+Parameters used:
+
+| Parameter | Value | Meaning |
+|---|---:|---|
+| `L2_STRENGTH` | 1.0 | Strength of L2 regularization |
+| `LOGIT_LEARNING_RATE` | 0.01 | Gradient descent learning rate |
+| `LOGIT_MAX_ITER` | 5000 | Maximum number of optimization iterations |
+| `LOGIT_TOL` | 1e-8 | Convergence tolerance |
+| `TEST_SIZE` | 0.30 | Test split proportion |
+| `RANDOM_SEED` | 2026 | Reproducibility seed |
+| classification threshold | 0.5 | Probability cutoff for class labels |
+
+Interpretation:
+
+The logistic regression model is a linear baseline. Because all features are standardized before fitting, coefficient magnitudes can be compared as model-based feature importance. The notebook also computes permutation importance and linear SHAP-style attributions.
+
+Additional explainability outputs:
+
+- Top 10 absolute coefficients
+- Permutation importance
+- Linear SHAP-style global and local attributions
+- ALE plots for the top 4 permutation-importance features
+
+# Gradient Boosting Parameters
+
+Model:
+
+```text
+Gradient boosting with decision stumps
+```
+
+Parameters used:
+
+| Parameter | Value | Meaning |
+|---|---:|---|
+| `N_ESTIMATORS` | 150 | Number of boosting iterations / stumps |
+| `GB_LEARNING_RATE` | 0.05 | Shrinkage applied to each stump |
+| `MAX_THRESHOLDS_PER_FEATURE` | 24 | Maximum candidate split thresholds per feature |
+| `MIN_LEAF_SIZE` | 30 | Minimum number of training rows in each stump leaf |
+| `TEST_SIZE` | 0.30 | Test split proportion |
+| `RANDOM_SEED` | 2026 | Reproducibility seed |
+| classification threshold | 0.5 | Probability cutoff for class labels |
+
+Interpretation:
+
+The gradient boosting model is a non-linear baseline built from decision stumps. Each stump uses one feature and one threshold. Feature importance is summarized by split counts, permutation importance, and additive stump SHAP-style attributions.
+
+Additional explainability outputs:
+
+- Split-count feature importance
+- Permutation importance
+- Additive stump SHAP-style global and local attributions
+- ALE plots for the top 4 permutation-importance features
+
+# Discrete-Time Survival Model Parameters
+
+Model:
+
+```text
+Discrete-time L2 logistic hazard model
+```
+
+Target framing:
+
+- Event: first delinquency/contact event year from 2000 to 2020.
+- Unit of analysis: one row per person and survey wave while the person is still at risk.
+- Censoring: people without an observed event are followed until their last observed target year.
+- Time handling: wave dummy variables are added as a simple baseline hazard.
+
+Parameters used:
+
+| Parameter | Value | Meaning |
+|---|---:|---|
+| `FEATURE_LIMIT` | 60 | Top LR permutation-importance features used for the first lightweight survival attempt |
+| `L2_STRENGTH` | 1.0 | Strength of L2 regularization |
+| `LEARNING_RATE` | 0.02 | Gradient descent learning rate |
+| `MAX_ITER` | 1200 | Maximum number of optimization iterations |
+| `TOL` | 1e-7 | Convergence tolerance |
+| `TEST_SIZE` | 0.30 | Person-level test split proportion |
+| `RANDOM_SEED` | 2026 | Reproducibility seed |
+
+Interpretation:
+
+This model is not directly the same task as the binary persistent-contact LR/GB models. It is a first survival-style attempt that models when the first event occurs. The row-level hazard AUC is useful for testing whether the model ranks event waves above non-event waves. The person-level cumulative-risk output is exploratory and currently weaker than the binary LR/GB baselines.
+
+# Cox Time-Varying Survival Model Parameters
+
+Model:
+
+```text
+lifelines CoxTimeVaryingFitter
+```
+
+Target framing:
+
+- Event: `later_delinquency_contact_second_event_year_2000_2020`
+- Person-level target: `later_persistent_delinquency_contact_2000_2020`
+- Censoring: people without a second observed delinquency/contact year are censored at `later_delinquency_contact_last_observed_year_2000_2020`.
+- Unit of analysis: one row per person and risk interval.
+- Time-varying rule: a feature is only available in an interval if it was measured before that interval's stop year.
+
+Parameters used:
+
+| Parameter | Value | Meaning |
+|---|---:|---|
+| `FEATURE_LIMIT` | 35 | Top LR permutation-importance features used for the first Cox attempt |
+| `COX_PENALIZER` | 0.20 | Penalization strength for model stability |
+| `TEST_SIZE` | 0.30 | Person-level test split proportion |
+| `RANDOM_SEED` | 2026 | Reproducibility seed |
+
+Preprocessing:
+
+- Median imputation with `sklearn.SimpleImputer`
+- Standardization with `sklearn.StandardScaler`
+- Person-level stratified train/test split with `sklearn.train_test_split`
+- Low-variance feature filter before fitting
+
+Interpretation:
+
+The Cox model estimates relative hazard, not a direct probability. Higher partial hazard means the model expects a higher risk of reaching the persistent-contact event sooner. This model is methodologically closer to the longitudinal structure than the binary LR/GB models, but its output should be compared mainly through ranking metrics such as C-index and AUC.
+
+# Current Test Metrics
+
+Current test-set performance:
+
+| Model | Accuracy | AUC | Sensitivity | Specificity |
+|---|---:|---:|---:|---:|
+| L2 Logistic Regression | 0.888 | 0.949 | 0.921 | 0.854 |
+| Gradient Boosting Stumps | 0.814 | 0.904 | 0.878 | 0.747 |
+| Discrete-time Survival, person-wave hazard | 0.866 | 0.797 | 0.164 | 0.985 |
+| Discrete-time Survival, person cumulative risk | 0.523 | 0.509 | 0.526 | 0.514 |
+
+Cox time-varying survival performance:
+
+| Model | C-index | Person-level AUC | Matched-base-rate Accuracy |
+|---|---:|---:|---:|
+| Cox Time-Varying Survival | 0.679 | 0.724 | 0.664 |
+
+# Notes
+
+These models were not hyperparameter tuned. They are baseline models designed to compare tabular representations against the original BoL text representation. Feature importance values should be interpreted as model-based relevance scores, not as statistical significance tests or causal effects.

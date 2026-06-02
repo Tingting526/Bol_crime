@@ -1,0 +1,4 @@
+example,C0000100,model,target,y_true,probability,threshold,prediction,correct,note
+Real held-out tabular test person,103001.0,L2 logistic regression,later_persistent_delinquency_contact_2000_2020,1.0,0.9916970645491036,0.5,1,True,"Same original BoL feature index, numeric tabular preprocessing."
+Real held-out tabular test person,103001.0,Gradient boosting stumps,later_persistent_delinquency_contact_2000_2020,1.0,0.4406417866565689,0.5,0,False,"Same original BoL feature index, numeric tabular preprocessing."
+Synthetic BoL reference book,,BoL LLM example output,later_persistent_delinquency_contact,,0.34,0.5,0,,"Synthetic illustrative book; not a real respondent, so not directly the same person."

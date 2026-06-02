@@ -1,0 +1,20 @@
+{
+  "model": "lifelines_cox_time_varying_persistent_second_event",
+  "target": "later_persistent_delinquency_contact_2000_2020",
+  "event_time": "later_delinquency_contact_second_event_year_2000_2020",
+  "censor_time": "later_delinquency_contact_last_observed_year_2000_2020",
+  "n_persons": 4122,
+  "n_train_persons": 2885,
+  "n_test_persons": 1237,
+  "n_rows_train": 20563,
+  "n_rows_test": 8871,
+  "feature_limit": 35,
+  "n_kept_features": 35,
+  "cox_penalizer": 0.2,
+  "test_size": 0.3,
+  "random_seed": 2026,
+  "person_level_c_index": 0.6792308961687067,
+  "person_level_auc": 0.7237034828369062,
+  "matched_base_rate_threshold": 1.1859467194007576,
+  "matched_base_rate_accuracy": 0.6637025060630558
+}
