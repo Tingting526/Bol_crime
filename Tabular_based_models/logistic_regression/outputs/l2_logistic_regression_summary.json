@@ -1,0 +1,40 @@
+{
+  "target": "later_persistent_delinquency_contact_2000_2020",
+  "model": "l2_logistic_regression_original_bol_features_cutoff",
+  "feature_source": "original BoL broad persistent feature index",
+  "cutoff_rule": "positive: before second event year; negative: before last observed target year",
+  "n_total": 4122,
+  "n_train": 2885,
+  "n_test": 1237,
+  "n_features": 864,
+  "test_size": 0.3,
+  "random_seed": 2026,
+  "l2_strength": 1.0,
+  "learning_rate": 0.01,
+  "iterations": 5000,
+  "final_train_loss": 0.18625026807392547,
+  "train_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.9351819757365685,
+    "auc": 0.9806201326740024,
+    "sensitivity_tpr": 0.9661246612466124,
+    "specificity_tnr": 0.9027679205110007,
+    "predicted_positive_rate": 0.5417677642980936,
+    "tp": 1426,
+    "tn": 1272,
+    "fp": 137,
+    "fn": 50
+  },
+  "test_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.8884397736459175,
+    "auc": 0.9493346097109319,
+    "sensitivity_tpr": 0.9210110584518167,
+    "specificity_tnr": 0.8543046357615894,
+    "predicted_positive_rate": 0.5424413904607922,
+    "tp": 583,
+    "tn": 516,
+    "fp": 88,
+    "fn": 50
+  }
+}
