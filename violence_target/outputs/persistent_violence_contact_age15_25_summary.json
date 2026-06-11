@@ -1,0 +1,13 @@
+{
+  "target_name": "persistent_violence_contact_age15_25",
+  "definition": "eligible if observed through age 25; positive if >=2 distinct positive violence age-years from ages 15-25",
+  "predictor_cutoff": "age 15; use predictors before 15th birthday only",
+  "total_children_in_extract": 11551,
+  "eligible_n": 4482,
+  "missing_not_eligible_n": 7069,
+  "positive_n": 532,
+  "negative_n": 3950,
+  "base_rate": 0.11869701026327532,
+  "mean_observed_age_years_15_25": 4.587542468856173,
+  "median_observed_age_years_15_25": 5.0
+}

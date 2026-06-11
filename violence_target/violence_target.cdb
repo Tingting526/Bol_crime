@@ -1,0 +1,939 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+ 
+   11551           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11551
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11551      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600544.28
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+ 
+NOTE: SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11551           1 TO 12686: NLSY79 Public ID
+  -------
+   11551
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11551      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6005.42
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00053.00    [CRACE]                                        Survey Year: XRND
+  PRIMARY VARIABLE
+
+             RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+ 
+RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+ 
+NOTE: Child race/ethnicity is based on the report of the mother. See NLSY79 main
+Youth Reference Number R( 2147.)
+ 
+    2224       1 HISPANIC
+    3196       2 BLACK
+    6131       3 NON-BLACK, NON-HISPANIC
+  -------
+   11551
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11551      MISSING(-7)       0
+ 
+Min:              1        Max:              3        Mean:                2.34
+ 
+Lead In: C00052.00[Default]
+Default Next Question: C00054.00
+--------------------------------------------------------------------------------
+C00054.00    [CSEX]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+             SEX OF CHILD
+ 
+SEX OF CHILD
+ 
+    5898       1 MALE
+    5651       2 FEMALE
+  -------
+   11549
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   11551      MISSING(-7)       0
+ 
+Min:              1        Max:              2        Mean:                1.49
+ 
+Lead In: C00053.00[Default]
+Default Next Question: C00055.00
+--------------------------------------------------------------------------------
+C00057.00    [CYRB]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+             DATE OF BIRTH OF CHILD - YEAR
+ 
+DATE OF BIRTH OF CHILD - YEAR
+ 
+    1223        1970 TO 1978: < before 1979
+     528        1979
+     607        1980
+     714        1981
+     703        1982
+     715        1983
+     657        1984
+     676        1985
+     618        1986
+     621        1987
+     585        1988
+     629        1989
+     495        1990
+     424        1991
+     402        1992
+     348        1993
+     303        1994
+     245        1995
+     229        1996
+     216        1997
+     156        1998
+     129        1999
+     100        2000
+      81        2001
+      48        2002
+      34        2003
+      24        2004
+      15        2005
+      11        2006
+       4        2007
+       3        2008
+       3        2009
+       2        2010
+       2        2011
+       1        2014
+  -------
+   11551
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11551      MISSING(-7)       0
+ 
+Min:           1970        Max:           2014        Mean:              1986.1
+ 
+Lead In: C00055.00[Default]
+Default Next Question: C00057.01
+--------------------------------------------------------------------------------
+C07307.00    [CS884221]                                     Survey Year: 1988
+  PRIMARY VARIABLE
+
+             CHILD SELF-ADMINISTERED: HURT SOMEONE BAD ENOUGH TO NEED A DOCTOR
+ 
+CHILD SELF-ADMINISTERED: HURT SOMEONE BAD ENOUGH TO NEED A DOCTOR  88 INT
+ 
+     648       0 NEVER
+      96       1 ONCE
+      31       2 TWICE
+      25       3 MORE THAN TWICE
+  -------
+     800
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     800      MISSING(-7)   10751
+ 
+Min:              0        Max:              3        Mean:                 .29
+ 
+Lead In: C07306.00[Default]
+Default Next Question: C07308.00
+--------------------------------------------------------------------------------
+C09424.00    [CS906613]                                     Survey Year: 1990
+  PRIMARY VARIABLE
+
+             CHILD SELF-ADMINISTERED: HURT SOMEONE BAD ENOUGH TO NEED A DOCTOR
+ 
+CHILD SELF-ADMINISTERED: HURT SOMEONE BAD ENOUGH TO NEED A DOCTOR  90 INT
+ 
+     901       0 NEVER
+     145       1 ONCE
+      44       2 TWICE
+      46       3 MORE THAN TWICE
+  -------
+    1136
+ 
+Refusal(-1)            4
+Don't Know(-2)         0
+TOTAL =========>    1140      MISSING(-7)   10411
+ 
+Min:              0        Max:              3        Mean:                 .33
+ 
+Lead In: C09423.00[Default]
+Default Next Question: C09425.00
+--------------------------------------------------------------------------------
+Y03753.00    [YASR-61B]                                     Survey Year: 1994
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN PAST YEAR GOTTEN INTO FIGHT AT 
+             WORK OR SCHOOL?
+ 
+(86. In the last year (last 12 months), have you ever:) (PLEASE ANSWER EACH 
+ITEM)
+ 
+c. gotten into a fight at school or work?
+ 
+     288           1: YES
+     624           0: NO
+  -------
+     912
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     912      MISSING(-7)   10639
+ 
+Min:              0        Max:              1        Mean:                 .32
+ 
+Lead In: Y03752.00[Default]
+Default Next Question: Y03754.00
+--------------------------------------------------------------------------------
+Y03759.00    [YASR-61I]                                     Survey Year: 1994
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR ATTACKED SOMEONE TO 
+             HURT/KILL?
+ 
+(86. In the last year (last 12 months), have you ever:)  (PLEASE ANSWER EACH 
+ITEM)
+ 
+i. attacked someone with the idea of seriously hurting or killing them?
+ 
+      87           1: YES
+     826           0: NO
+  -------
+     913
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     913      MISSING(-7)   10638
+ 
+Min:              0        Max:              1        Mean:                  .1
+ 
+Lead In: Y03758.00[Default]
+Default Next Question: Y03760.00
+--------------------------------------------------------------------------------
+Y03765.00    [YASR-61O]                                     Survey Year: 1994
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR HURT SOMEONE ENOUGH TO 
+             NEED DOC?
+ 
+(86. In the last year (last 12 months), have you ever:)   (PLEASE ANSWER EACH 
+ITEM)
+ 
+o. hurt someone badly enough to need bandages or a doctor?
+ 
+     109           1: YES
+     804           0: NO
+  -------
+     913
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     913      MISSING(-7)   10638
+ 
+Min:              0        Max:              1        Mean:                 .12
+ 
+Lead In: Y03764.00[Default]
+Default Next Question: Y03766.00
+--------------------------------------------------------------------------------
+Y06690.00    [YASR-61B]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN PAST YEAR GOTTEN INTO FIGHT AT 
+             WORK OR SCHOOL?
+ 
+(82. In the last year (last 12 months), have you ever:)  (PLEASE ANSWER EACH 
+ITEM)
+c. gotten into a fight at school or work?
+ 
+     420           1: YES
+    1092           0: NO
+  -------
+    1512
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)      23
+TOTAL =========>    1536      MISSING(-7)   10015
+ 
+Min:              0        Max:              1        Mean:                 .28
+ 
+Lead In: Y06689.00[Default]
+Default Next Question: Y06691.00
+--------------------------------------------------------------------------------
+Y06696.00    [YASR-61I]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR ATTACKED SOMEONE TO 
+             HURT/KILL?
+ 
+(82. In the last year (last 12 months), have you ever:)  (PLEASE ANSWER EACH 
+ITEM)
+i. attacked someone with the idea of seriously hurting or killing them?
+ 
+     144           1: YES
+    1370           0: NO
+  -------
+    1514
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)      21
+TOTAL =========>    1536      MISSING(-7)   10015
+ 
+Min:              0        Max:              1        Mean:                  .1
+ 
+Lead In: Y06695.00[Default]
+Default Next Question: Y06697.00
+--------------------------------------------------------------------------------
+Y06702.00    [YASR-61O]                                     Survey Year: 1996
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR HURT SOMEONE ENOUGH TO 
+             NEED DOC?
+ 
+(82. In the last year (last 12 months), have you ever:) (PLEASE ANSWER EACH 
+ITEM)
+o. hurt someone badly enough to need bandages or a doctor?
+ 
+     164           1: YES
+    1346           0: NO
+  -------
+    1510
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)      25
+TOTAL =========>    1536      MISSING(-7)   10015
+ 
+Min:              0        Max:              1        Mean:                 .11
+ 
+Lead In: Y06701.00[Default]
+Default Next Question: Y06703.00
+--------------------------------------------------------------------------------
+Y09664.00    [YASR-61B]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN PAST YEAR GOTTEN INTO FIGHT AT 
+             WORK OR SCHOOL?
+ 
+(93. In the last year (last 12 months), have you ever:)
+    (PLEASE ANSWER EACH ITEM)
+c. gotten into a fight at school or work?
+ 
+UNIVERSE: All YAs
+ 
+     451           1: YES
+    1488           0: NO
+  -------
+    1939
+ 
+Refusal(-1)            2
+Don't Know(-2)         0
+Invalid Skip(-3)      37
+TOTAL =========>    1978      MISSING(-7)    9573
+ 
+Min:              0        Max:              1        Mean:                 .23
+ 
+Lead In: Y09663.00[Default]
+Default Next Question: Y09665.00
+--------------------------------------------------------------------------------
+Y09670.00    [YASR-61I]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR ATTACKED SOMEONE TO 
+             HURT/KILL?
+ 
+(93. In the last year (last 12 months), have you ever:)
+    (PLEASE ANSWER EACH ITEM)
+i. attacked someone with the idea of seriously hurting
+   or killing them?
+ 
+UNIVERSE: All YAs
+ 
+     141           1: YES
+    1803           0: NO
+  -------
+    1944
+ 
+Refusal(-1)            2
+Don't Know(-2)         0
+Invalid Skip(-3)      32
+TOTAL =========>    1978      MISSING(-7)    9573
+ 
+Min:              0        Max:              1        Mean:                 .07
+ 
+Lead In: Y09669.00[Default]
+Default Next Question: Y09671.00
+--------------------------------------------------------------------------------
+Y09676.00    [YASR-61O]                                     Survey Year: 1998
+  PRIMARY VARIABLE
+
+             YA SELF-REPORT: HAVE YOU EVER IN LAST YEAR HURT SOMEONE ENOUGH TO 
+             NEED DOC?
+ 
+(93. In the last year (last 12 months), have you ever:)
+    (PLEASE ANSWER EACH ITEM)
+o. hurt someone badly enough to need bandages or a doctor?
+ 
+UNIVERSE: All YAs
+ 
+     195           1: YES
+    1751           0: NO
+  -------
+    1946
+ 
+Refusal(-1)            2
+Don't Know(-2)         0
+Invalid Skip(-3)      30
+TOTAL =========>    1978      MISSING(-7)    9573
+ 
+Min:              0        Max:              1        Mean:                  .1
+ 
+Lead In: Y09675.00[Default]
+Default Next Question: Y09677.00
+--------------------------------------------------------------------------------
+Y11762.00    [YASR-61B]                                     Survey Year: 2000
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a fight at school 
+or work?
+ 
+(PRESS THE "DOWN ARROW" KEY TO HIGHLIGHT AN ANSWER. THEN PRESS <ENTER> TO 
+CONTINUE TO THE NEXT SCREEN.)
+ 
+(PRESS <F6> FOR "DON'T KNOW" AND <F5> FOR "DO NOT WISH TO ANSWER".)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+     327       1 Yes
+    2690       0 No
+  -------
+    3017
+ 
+Refusal(-1)            2
+Don't Know(-2)         5
+TOTAL =========>    3024      MISSING(-7)    8527
+ 
+Min:              0        Max:              1        Mean:                 .11
+ 
+Lead In: Y11761.00[Default]
+Default Next Question: Y11763.00
+--------------------------------------------------------------------------------
+Y14159.00    [YASR-60C]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+(In the last year, about how many times have you...)
+ 
+...hurt someone badly enough to need bandages or a doctor?
+ 
+(PRESS THE "DOWN ARROW" KEY TO HIGHLIGHT AN ANSWER. THEN PRESS <ENTER> TWICE TO 
+CONTINUE TO THE NEXT SCREEN.)
+ 
+(PRESS <F6> FOR "DON'T KNOW" AND <F5> FOR "DO NOT WISH TO ANSWER".)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+    1333       1 Never
+     122       2 Once
+      38       3 Twice
+      46       4 More than twice
+  -------
+    1539
+ 
+Refusal(-1)            1
+Don't Know(-2)         0
+TOTAL =========>    1540      MISSING(-7)   10011
+ 
+Min:              1        Max:              4        Mean:                1.22
+ 
+Lead In: Y14158.00[Default]
+Default Next Question: Y14160.00
+--------------------------------------------------------------------------------
+Y14168.00    [YASR-61B]                                     Survey Year: 2002
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a physical fight at
+school or work?
+ 
+(PRESS THE "DOWN ARROW" KEY TO HIGHLIGHT AN ANSWER. THEN PRESS <ENTER> TWICE TO 
+CONTINUE TO THE NEXT SCREEN.)
+ 
+(PRESS <F6> FOR "DON'T KNOW" AND <F5> FOR "DO NOT WISH TO ANSWER".)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+     107       1 Yes
+    2587       0 No
+  -------
+    2694
+ 
+Refusal(-1)            1
+Don't Know(-2)         1
+TOTAL =========>    2696      MISSING(-7)    8855
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: Y14167.00[Default]
+Default Next Question: Y14169.00
+--------------------------------------------------------------------------------
+Y16673.00    [YASR-60C]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+(In the last year, about how many times have you...)
+ 
+...hurt someone badly enough to need bandages or a doctor?
+ 
+(CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND CONTINUE" TO 
+MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+    1274       1 Never
+     123       2 Once
+      47       3 Twice
+      39       4 More than twice
+  -------
+    1483
+ 
+Refusal(-1)            8
+Don't Know(-2)        12
+TOTAL =========>    1503      MISSING(-7)   10048
+ 
+Min:              1        Max:              4        Mean:                1.23
+ 
+Lead In: Y16672.00[Default]
+Default Next Question: Y16674.00
+--------------------------------------------------------------------------------
+Y16682.00    [YASR-61B]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a physical fight at
+school or work?  (CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND
+CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+     126       1 Yes
+    3381       0 No
+  -------
+    3507
+ 
+Refusal(-1)            3
+Don't Know(-2)         3
+TOTAL =========>    3513      MISSING(-7)    8038
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: Y16681.00[Default]
+Default Next Question: Y16683.00
+--------------------------------------------------------------------------------
+Y19406.00    [YASR-60C]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+(In the last year, about how many times have you...)  ...hurt someone badly 
+enough to need bandages or a doctor?  (CLICK ON THE BUTTON BESIDE YOUR ANSWER, 
+THEN CLICK "SUBMIT AND CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+    1178       1 Never
+     112       2 Once
+      32       3 Twice
+      35       4 More than twice
+  -------
+    1357
+ 
+Refusal(-1)            9
+Don't Know(-2)        10
+TOTAL =========>    1376      MISSING(-7)   10175
+ 
+Min:              1        Max:              4        Mean:                1.21
+ 
+Lead In: Y19405.00[Default]
+Default Next Question: Y19407.00
+--------------------------------------------------------------------------------
+Y19415.00    [YASR-61B]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a physical fight at
+school or work?  (CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND
+CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+     160       1 Yes
+    4240       0 No
+  -------
+    4400
+ 
+Refusal(-1)            7
+Don't Know(-2)        12
+TOTAL =========>    4419      MISSING(-7)    7132
+ 
+Min:              0        Max:              1        Mean:                 .04
+ 
+Lead In: Y19414.00[Default]
+Default Next Question: Y19416.00
+--------------------------------------------------------------------------------
+Y22566.00    [YASR-60C]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+(In the last year, about how many times have you...)
+ 
+...hurt someone badly enough to need bandages or a doctor?
+ 
+(CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND CONTINUE" TO 
+MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+    1005       1 Never
+      82       2 Once
+      35       3 Twice
+      21       4 More than twice
+  -------
+    1143
+ 
+Refusal(-1)            3
+Don't Know(-2)        10
+TOTAL =========>    1156      MISSING(-7)   10395
+ 
+Min:              1        Max:              4        Mean:                1.19
+ 
+Lead In: Y22565.00[Default]
+Default Next Question: Y22567.00
+--------------------------------------------------------------------------------
+Y22575.00    [YASR-61B]                                     Survey Year: 2008
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a physical fight at
+school or work?
+ 
+(CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND CONTINUE" TO 
+MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+     137       1 Yes
+    4945       0 No
+  -------
+    5082
+ 
+Refusal(-1)           10
+Don't Know(-2)         6
+TOTAL =========>    5098      MISSING(-7)    6453
+ 
+Min:              0        Max:              1        Mean:                 .03
+ 
+Lead In: Y22574.00[Default]
+Default Next Question: Y22576.00
+--------------------------------------------------------------------------------
+Y22670.00    [VERSION_R29]                                  Survey Year: XRND
+  PRIMARY VARIABLE
+
+             VERSION_R29 CHILD/YOUNG ADULT
+ 
+This variable identifies the release version of the current NLSY79 Child/Young 
+Adult data set, This information allows User Services to identify the release 
+version used by a researcher who is asking a question and to access past 
+versions of the data if necessary.
+ 
+   11551         532
+  -------
+   11551
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11551      MISSING(-7)       0
+ 
+Min:            532        Max:            532        Mean:                 532
+ 
+Lead In: Y12053.00[Default]
+Default Next Question: Y12054.00
+--------------------------------------------------------------------------------
+Y26082.00    [YASR-60C]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+(In the last year, about how many times have you...)  ...hurt someone badly 
+enough to need bandages or a doctor?  (CLICK ON THE BUTTON BESIDE YOUR ANSWER, 
+THEN CLICK "SUBMIT AND CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+     847       1 Never
+      55       2 Once
+      19       3 Twice
+      16       4 More than twice
+  -------
+     937
+ 
+Refusal(-1)            1
+Don't Know(-2)         4
+TOTAL =========>     942      MISSING(-7)   10609
+ 
+Min:              1        Max:              4        Mean:                1.15
+ 
+Lead In: Y26081.00[Default]
+Default Next Question: Y26083.00
+--------------------------------------------------------------------------------
+Y26091.00    [YASR-61B]                                     Survey Year: 2010
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a physical fight at
+school or work?  (CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND
+CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+     119       1 Yes
+    4974       0 No
+  -------
+    5093
+ 
+Refusal(-1)            3
+Don't Know(-2)         8
+TOTAL =========>    5104      MISSING(-7)    6447
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: Y26090.00[Default]
+Default Next Question: Y26092.00
+--------------------------------------------------------------------------------
+Y29583.00    [YASR-60C]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+(In the last year, about how many times have you...)
+ 
+...hurt someone badly enough to need bandages or a doctor?
+ 
+(CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND CONTINUE" TO 
+MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+     509       1 Never
+      18       2 Once
+       7       3 Twice
+       7       4 More than twice
+  -------
+     541
+ 
+Refusal(-1)            0
+Don't Know(-2)         6
+TOTAL =========>     547      MISSING(-7)   11004
+ 
+Min:              1        Max:              4        Mean:                 1.1
+ 
+Lead In: Y29582.00[Default]
+Default Next Question: Y29584.00
+--------------------------------------------------------------------------------
+Y29592.00    [YASR-61B]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+             IN LAST YEAR R EVER GOTTEN INTO A PHYSICAL FIGHT AT SCHOOL OR WORK
+ 
+In the last year (last 12 months), have you ever gotten into a physical fight at
+school or work?  (CLICK ON THE BUTTON BESIDE YOUR ANSWER, THEN CLICK "SUBMIT AND
+CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 18 and over
+ 
+      82       1 Yes
+    5126       0 No
+  -------
+    5208
+ 
+Refusal(-1)            5
+Don't Know(-2)         5
+TOTAL =========>    5218      MISSING(-7)    6333
+ 
+Min:              0        Max:              1        Mean:                 .02
+ 
+Lead In: Y29591.00[Default]
+Default Next Question: Y29593.00
+--------------------------------------------------------------------------------
+Y33257.01    [YASR-60B-J~000002]                            Survey Year: 2014
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+In the last year, about how many times have you...
+ 
+(CLICK ON THE BUTTON BESIDE YOUR ANSWER TO EACH QUESTION, THEN CLICK "SUBMIT AND
+CONTINUE" TO MOVE AHEAD TO THE NEXT SCREEN.)
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+RESPONSE CHOICE: "...hurt someone badly enough to need bandages or a doctor?"
+ 
+     316       1 Never
+      10       2 Once
+       5       3 Twice
+       7       4 More than twice
+  -------
+     338
+ 
+Refusal(-1)            1
+Don't Know(-2)         2
+TOTAL =========>     341      MISSING(-7)   11210
+ 
+Min:              1        Max:              4        Mean:                1.12
+ 
+Lead In: Y33257.00[Default]
+Default Next Question: Y33257.02
+--------------------------------------------------------------------------------
+Y36708.01    [YASR-60B-J~000002]                            Survey Year: 2016
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+In the last year, about how many times have you...  
+[(CLICK ON THE BUTTON BESIDE YOUR ANSWER FOR EACH ITEM, THEN CLICK 'SUBMIT AND 
+CONTINUE' TO MOVE AHEAD TO THE NEXT SCREEN.)/(][INTERVIEWER:][READ ANSWER 
+CATEGORIES][FOR FIRST QUESTION, THEN REPEAT][ONLY IF NECESSARY][)]
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+RESPONSE CHOICE: "...hurt someone badly enough to need bandages or a doctor?"
+ 
+     273       1 Never
+      20       2 Once
+       6       3 Twice
+       6       4 More than twice
+  -------
+     305
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     305      MISSING(-7)   11246
+ 
+Min:              1        Max:              4        Mean:                1.16
+ 
+Lead In: Y36708.00[Default]
+Default Next Question: Y36708.02
+--------------------------------------------------------------------------------
+Y42756.01    [YASR-60B-J~000002]                            Survey Year: 2018
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+In the last year, about how many times have you done the following - never, 
+once, twice, or more than twice?    [(CLICK ON THE BUTTON BESIDE YOUR ANSWER FOR
+EACH ITEM, THEN CLICK 'NEXT' TO MOVE AHEAD TO THE NEXT 
+SCREEN.)/(][INTERVIEWER:][READ ANSWER CATEGORIES][ONLY IF NECESSARY][)]
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+RESPONSE CHOICE: "...hurt someone badly enough to need bandages or a doctor?"
+ 
+     135       1 NEVER
+       6       2 ONCE
+       1       3 TWICE
+       3       4 MORE THAN TWICE
+  -------
+     145
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     145      MISSING(-7)   11406
+ 
+Min:              1        Max:              4        Mean:                1.12
+ 
+Lead In: Y42756.00[Default]
+Default Next Question: Y42756.02
+--------------------------------------------------------------------------------
+Y45968.01    [YASR-60B-J~000002]                            Survey Year: 2020
+  PRIMARY VARIABLE
+
+             HOW MANY TIMES IN LAST YEAR R HURT SOMEONE BADLY ENOUGH TO NEED 
+             BANDAGES OR DOCTOR (CATEGORICAL)
+ 
+In the last year, about how many times have you done the following - never, 
+once, twice, or more than twice?    [(CLICK ON THE BUTTON BESIDE YOUR ANSWER FOR
+EACH ITEM, THEN CLICK 'NEXT' TO MOVE AHEAD TO THE NEXT 
+SCREEN.)/(][INTERVIEWER:][READ ANSWER CATEGORIES][ONLY IF NECESSARY][)]
+ 
+UNIVERSE: YAs ages 17 and under
+ 
+RESPONSE CHOICE: "...hurt someone badly enough to need bandages or a doctor?"
+ 
+      74       1 NEVER
+       1       2 ONCE
+       1       3 TWICE
+       0       4 MORE THAN TWICE
+  -------
+      76
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>      77      MISSING(-7)   11474
+ 
+Min:              1        Max:              3        Mean:                1.04
+ 
+Lead In: Y45968.00[Default]
+Default Next Question: Y45968.02

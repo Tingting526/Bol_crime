@@ -1,0 +1,29 @@
+csv_code,ref_id,variable,survey_year,item_family,positive_rule,question
+C0730700,C07307.00,CS884221,1988,hurt_need_doctor,value >= 1,Hurt someone bad enough to need a doctor
+C0942400,C09424.00,CS906613,1990,hurt_need_doctor,value >= 1,Number of times hurt someone enough to need a doctor
+Y0375300,Y03753.00,YASR-61B,1994,physical_fight,value == 1,In past year got in fight at school or work
+Y0375900,Y03759.00,YASR-61I,1994,attacked_to_hurt,value == 1,In past year attacked someone to seriously hurt them
+Y0376500,Y03765.00,YASR-61O,1994,hurt_need_doctor,value == 1,In past year hurt someone enough to need doctor
+Y0669000,Y06690.00,YASR-61B,1996,physical_fight,value == 1,In past year got in fight at school or work
+Y0669600,Y06696.00,YASR-61I,1996,attacked_to_hurt,value == 1,In past year attacked someone to seriously hurt them
+Y0670200,Y06702.00,YASR-61O,1996,hurt_need_doctor,value == 1,In past year hurt someone enough to need doctor
+Y0966400,Y09664.00,YASR-61B,1998,physical_fight,value == 1,In past year got in fight at school or work
+Y0967000,Y09670.00,YASR-61I,1998,attacked_to_hurt,value == 1,In past year attacked someone to seriously hurt them
+Y0967600,Y09676.00,YASR-61O,1998,hurt_need_doctor,value == 1,In past year hurt someone enough to need doctor
+Y1176200,Y11762.00,YASR-61B,2000,physical_fight,value == 1,In last year got in physical fight at school or work
+Y1415900,Y14159.00,YASR-60C,2002,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y1416800,Y14168.00,YASR-61B,2002,physical_fight,value == 1,In last year got in physical fight at school or work
+Y1667300,Y16673.00,YASR-60C,2004,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y1668200,Y16682.00,YASR-61B,2004,physical_fight,value == 1,In last year got in physical fight at school or work
+Y1940600,Y19406.00,YASR-60C,2006,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y1941500,Y19415.00,YASR-61B,2006,physical_fight,value == 1,In last year got in physical fight at school or work
+Y2256600,Y22566.00,YASR-60C,2008,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y2257500,Y22575.00,YASR-61B,2008,physical_fight,value == 1,In last year got in physical fight at school or work
+Y2608200,Y26082.00,YASR-60C,2010,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y2609100,Y26091.00,YASR-61B,2010,physical_fight,value == 1,In last year got in physical fight at school or work
+Y2958300,Y29583.00,YASR-60C,2012,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y2959200,Y29592.00,YASR-61B,2012,physical_fight,value == 1,In last year got in physical fight at school or work
+Y3325701,Y33257.01,YASR-60B-J~000002,2014,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y3670801,Y36708.01,YASR-60B-J~000002,2016,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y4275601,Y42756.01,YASR-60B-J~000002,2018,hurt_physically,value >= 2,Times in last year hurt someone physically
+Y4596801,Y45968.01,YASR-60B-J~000002,2020,hurt_physically,value >= 2,Times in last year hurt someone physically

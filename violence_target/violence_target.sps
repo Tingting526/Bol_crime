@@ -1,0 +1,460 @@
+
+file handle pcdat/name='violence_target.dat' /lrecl=115.
+data list file pcdat free /
+  C0000100 (F7)
+  C0000200 (F5)
+  C0005300 (F2)
+  C0005400 (F2)
+  C0005700 (F4)
+  C0730700 (F2)
+  C0942400 (F2)
+  Y0375300 (F2)
+  Y0375900 (F2)
+  Y0376500 (F2)
+  Y0669000 (F2)
+  Y0669600 (F2)
+  Y0670200 (F2)
+  Y0966400 (F2)
+  Y0967000 (F2)
+  Y0967600 (F2)
+  Y1176200 (F2)
+  Y1415900 (F2)
+  Y1416800 (F2)
+  Y1667300 (F2)
+  Y1668200 (F2)
+  Y1940600 (F2)
+  Y1941500 (F2)
+  Y2256600 (F2)
+  Y2257500 (F2)
+  Y2267000 (F3)
+  Y2608200 (F2)
+  Y2609100 (F2)
+  Y2958300 (F2)
+  Y2959200 (F2)
+  Y3325701 (F2)
+  Y3670801 (F2)
+  Y4275601 (F2)
+  Y4596801 (F2)
+.
+
+* The following code works with current versions of SPSS.
+
+missing values all (-7 thru -1).
+* older versions of SPSS may require this:
+* recode all (-3,-2,-1=-7).
+* missing values all (-7).
+
+
+
+variable labels
+  C0000100  "ID CODE OF CHILD"
+  C0000200  "ID CODE OF MOTHER OF CHILD"
+  C0005300  "RACE OF CHILD (FROM MOTHERS SCREENER 79)"
+  C0005400  "SEX OF CHILD"
+  C0005700  "DATE OF BIRTH OF CHILD - YEAR"
+  C0730700  "HURT SOMEONE BAD ENOUGH TO NEED A DR"
+  C0942400  "# TIMES HURT SOMEONE TO NEED A DOCTOR"
+  Y0375300  "IN PAST YR GOT IN SCHOOL/WORK FIGHT   94 1994"
+  Y0375900  "IN PAST YR ATTACKED TO SERIOUSLY HURT 94 1994"
+  Y0376500  "IN PAST YR HURT SOMEONE TO NEED DOCTR 94 1994"
+  Y0669000  "IN PAST YR GOT IN SCHOOL/WORK FIGHT   96 1996"
+  Y0669600  "IN PAST YR ATTACKED TO SERIOUSLY HURT 96 1996"
+  Y0670200  "IN PAST YR HURT SOMEONE TO NEED DOCTR 96 1996"
+  Y0966400  "IN PAST YR GOT IN SCHOOL/WORK FIGHT 1998"
+  Y0967000  "IN PAST YR ATTACK TO SERIOUSLY HURT 1998"
+  Y0967600  "IN PAST YR HURT SOMEONE TO NEED DR 1998"
+  Y1176200  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2000"
+  Y1415900  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2002"
+  Y1416800  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2002"
+  Y1667300  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2004"
+  Y1668200  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2004"
+  Y1940600  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2006"
+  Y1941500  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2006"
+  Y2256600  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2008"
+  Y2257500  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2008"
+  Y2267000  "VERSION_R29 CHILD/YOUNG ADULT XRND"
+  Y2608200  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2010"
+  Y2609100  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2010"
+  Y2958300  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2012"
+  Y2959200  "IN LAST YR GOT IN PHYSICAL FIGHT AT SCHOOL OR WORK 2012"
+  Y3325701  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2014"
+  Y3670801  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2016"
+  Y4275601  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2018"
+  Y4596801  "TIMES IN LAST YR R HURT SOMEONE PHYSICALLY (CAT) 2020"
+.
+
+* Recode continuous values.
+* recode
+  C0000100
+    (1 thru 9999999 eq 1)
+    /
+  C0000200
+    (1 thru 12686 eq 1)
+    /
+  C0005700
+    (1970 thru 1978 eq 1970)
+    (1979 thru 1979 eq 1979)
+    (1980 thru 1980 eq 1980)
+    (1981 thru 1981 eq 1981)
+    (1982 thru 1982 eq 1982)
+    (1983 thru 1983 eq 1983)
+    (1984 thru 1984 eq 1984)
+    (1985 thru 1985 eq 1985)
+    (1986 thru 1986 eq 1986)
+    (1987 thru 1987 eq 1987)
+    (1988 thru 1988 eq 1988)
+    (1989 thru 1989 eq 1989)
+    (1990 thru 1990 eq 1990)
+    (1991 thru 1991 eq 1991)
+    (1992 thru 1992 eq 1992)
+    (1993 thru 1993 eq 1993)
+    (1994 thru 1994 eq 1994)
+    (1995 thru 1995 eq 1995)
+    (1996 thru 1996 eq 1996)
+    (1997 thru 1997 eq 1997)
+    (1998 thru 1998 eq 1998)
+    (1999 thru 1999 eq 1999)
+    (2000 thru 2000 eq 2000)
+    (2001 thru 2001 eq 2001)
+    (2002 thru 2002 eq 2002)
+    (2003 thru 2003 eq 2003)
+    (2004 thru 2004 eq 2004)
+    (2005 thru 2005 eq 2005)
+    (2006 thru 2006 eq 2006)
+    (2007 thru 2007 eq 2007)
+    (2008 thru 2008 eq 2008)
+    (2009 thru 2009 eq 2009)
+    (2010 thru 2010 eq 2010)
+    (2011 thru 2011 eq 2011)
+    (2012 thru 2012 eq 2012)
+    (2013 thru 2013 eq 2013)
+    (2014 thru 2014 eq 2014)
+    (2015 thru 2015 eq 2015)
+    (2016 thru 2016 eq 2016)
+    (2017 thru 2017 eq 2017)
+    (2018 thru 2018 eq 2018)
+    (2019 thru 2019 eq 2019)
+    (2020 thru 2020 eq 2020)
+    (2021 thru 2021 eq 2021)
+.
+
+* value labels
+ C0000100
+    1 "1 TO 9999999: See Min & Max values below for range as of this release"
+    /
+ C0000200
+    1 "1 TO 12686: NLSY79 Public ID"
+    /
+ C0005300
+    1 "HISPANIC"
+    2 "BLACK"
+    3 "NON-BLACK, NON-HISPANIC"
+    /
+ C0005400
+    1 "MALE"
+    2 "FEMALE"
+    /
+ C0005700
+    1970 "1970 TO 1978: < before 1979"
+    1979 "1979"
+    1980 "1980"
+    1981 "1981"
+    1982 "1982"
+    1983 "1983"
+    1984 "1984"
+    1985 "1985"
+    1986 "1986"
+    1987 "1987"
+    1988 "1988"
+    1989 "1989"
+    1990 "1990"
+    1991 "1991"
+    1992 "1992"
+    1993 "1993"
+    1994 "1994"
+    1995 "1995"
+    1996 "1996"
+    1997 "1997"
+    1998 "1998"
+    1999 "1999"
+    2000 "2000"
+    2001 "2001"
+    2002 "2002"
+    2003 "2003"
+    2004 "2004"
+    2005 "2005"
+    2006 "2006"
+    2007 "2007"
+    2008 "2008"
+    2009 "2009"
+    2010 "2010"
+    2011 "2011"
+    2012 "2012"
+    2013 "2013"
+    2014 "2014"
+    2015 "2015"
+    2016 "2016"
+    2017 "2017"
+    2018 "2018"
+    2019 "2019"
+    2020 "2020"
+    2021 "2021"
+    /
+ C0730700
+    0 "NEVER"
+    1 "ONCE"
+    2 "TWICE"
+    3 "MORE THAN TWICE"
+    /
+ C0942400
+    0 "NEVER"
+    1 "ONCE"
+    2 "TWICE"
+    3 "MORE THAN TWICE"
+    /
+ Y0375300
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0375900
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0376500
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0669000
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0669600
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0670200
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0966400
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0967000
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y0967600
+    1 "1: YES"
+    0 "0: NO"
+    /
+ Y1176200
+    1 "Yes"
+    0 "No"
+    /
+ Y1415900
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y1416800
+    1 "Yes"
+    0 "No"
+    /
+ Y1667300
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y1668200
+    1 "Yes"
+    0 "No"
+    /
+ Y1940600
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y1941500
+    1 "Yes"
+    0 "No"
+    /
+ Y2256600
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y2257500
+    1 "Yes"
+    0 "No"
+    /
+ Y2267000
+    532 "532"
+    /
+ Y2608200
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y2609100
+    1 "Yes"
+    0 "No"
+    /
+ Y2958300
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y2959200
+    1 "Yes"
+    0 "No"
+    /
+ Y3325701
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y3670801
+    1 "Never"
+    2 "Once"
+    3 "Twice"
+    4 "More than twice"
+    /
+ Y4275601
+    1 "NEVER"
+    2 "ONCE"
+    3 "TWICE"
+    4 "MORE THAN TWICE"
+    /
+ Y4596801
+    1 "NEVER"
+    2 "ONCE"
+    3 "TWICE"
+    4 "MORE THAN TWICE"
+    /
+.
+
+
+/* Crosswalk for Reference number & Question name
+ * Uncomment and edit this RENAME VARIABLES statement to rename variables for ease of use.
+ * This command does not guarantee uniqueness
+ */  /* *start* */
+
+* RENAME VARIABLES
+  (C0000100 = CPUBID_XRND)
+  (C0000200 = MPUBID_XRND)
+  (C0005300 = CRACE_XRND)
+  (C0005400 = CSEX_XRND)
+  (C0005700 = CYRB_XRND)
+  (C0730700 = CS884221_1988)
+  (C0942400 = CS906613_1990)
+  (Y0375300 = YASR_61B_1994)  /* YASR-61B */
+  (Y0375900 = YASR_61I_1994)  /* YASR-61I */
+  (Y0376500 = YASR_61O_1994)  /* YASR-61O */
+  (Y0669000 = YASR_61B_1996)  /* YASR-61B */
+  (Y0669600 = YASR_61I_1996)  /* YASR-61I */
+  (Y0670200 = YASR_61O_1996)  /* YASR-61O */
+  (Y0966400 = YASR_61B_1998)  /* YASR-61B */
+  (Y0967000 = YASR_61I_1998)  /* YASR-61I */
+  (Y0967600 = YASR_61O_1998)  /* YASR-61O */
+  (Y1176200 = YASR_61B_2000)  /* YASR-61B */
+  (Y1415900 = YASR_60C_2002)  /* YASR-60C */
+  (Y1416800 = YASR_61B_2002)  /* YASR-61B */
+  (Y1667300 = YASR_60C_2004)  /* YASR-60C */
+  (Y1668200 = YASR_61B_2004)  /* YASR-61B */
+  (Y1940600 = YASR_60C_2006)  /* YASR-60C */
+  (Y1941500 = YASR_61B_2006)  /* YASR-61B */
+  (Y2256600 = YASR_60C_2008)  /* YASR-60C */
+  (Y2257500 = YASR_61B_2008)  /* YASR-61B */
+  (Y2267000 = VERSION_R29_XRND)
+  (Y2608200 = YASR_60C_2010)  /* YASR-60C */
+  (Y2609100 = YASR_61B_2010)  /* YASR-61B */
+  (Y2958300 = YASR_60C_2012)  /* YASR-60C */
+  (Y2959200 = YASR_61B_2012)  /* YASR-61B */
+  (Y3325701 = YASR_60B_J_000002_2014)  /* YASR-60B-J~000002 */
+  (Y3670801 = YASR_60B_J_000002_2016)  /* YASR-60B-J~000002 */
+  (Y4275601 = YASR_60B_J_000002_2018)  /* YASR-60B-J~000002 */
+  (Y4596801 = YASR_60B_J_000002_2020)  /* YASR-60B-J~000002 */
+.
+  /* *end* */
+
+descriptives all.
+
+*--- Tabulations using reference number variables.
+*freq var=C0000100,
+  C0000200,
+  C0005300,
+  C0005400,
+  C0005700,
+  C0730700,
+  C0942400,
+  Y0375300,
+  Y0375900,
+  Y0376500,
+  Y0669000,
+  Y0669600,
+  Y0670200,
+  Y0966400,
+  Y0967000,
+  Y0967600,
+  Y1176200,
+  Y1415900,
+  Y1416800,
+  Y1667300,
+  Y1668200,
+  Y1940600,
+  Y1941500,
+  Y2256600,
+  Y2257500,
+  Y2267000,
+  Y2608200,
+  Y2609100,
+  Y2958300,
+  Y2959200,
+  Y3325701,
+  Y3670801,
+  Y4275601,
+  Y4596801.
+
+*--- Tabulations using qname variables.
+*freq var=CPUBID_XRND,
+  MPUBID_XRND,
+  CRACE_XRND,
+  CSEX_XRND,
+  CYRB_XRND,
+  CS884221_1988,
+  CS906613_1990,
+  YASR_61B_1994,
+  YASR_61I_1994,
+  YASR_61O_1994,
+  YASR_61B_1996,
+  YASR_61I_1996,
+  YASR_61O_1996,
+  YASR_61B_1998,
+  YASR_61I_1998,
+  YASR_61O_1998,
+  YASR_61B_2000,
+  YASR_60C_2002,
+  YASR_61B_2002,
+  YASR_60C_2004,
+  YASR_61B_2004,
+  YASR_60C_2006,
+  YASR_61B_2006,
+  YASR_60C_2008,
+  YASR_61B_2008,
+  VERSION_R29_XRND,
+  YASR_60C_2010,
+  YASR_61B_2010,
+  YASR_60C_2012,
+  YASR_61B_2012,
+  YASR_60B_J_000002_2014,
+  YASR_60B_J_000002_2016,
+  YASR_60B_J_000002_2018,
+  YASR_60B_J_000002_2020.
