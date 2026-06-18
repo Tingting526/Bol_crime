@@ -1,0 +1,7 @@
+figure,what_it_shows
+01_target_balance_eligible.png,Target balance among eligible respondents
+02_subgroup_base_rates.png,Persistent target base rates by sex and race/ethnicity
+03_positive_age_year_distribution.png,Why the >=2 age-year rule defines persistence
+04_event_timing_first_second_age.png,Ages at first and second qualifying violence age-years
+05_observed_age_years_by_target.png,Target-window observation coverage by target class
+06_positive_person_age_heatmap.png,Age-by-survey-year location of positive person-age rows
